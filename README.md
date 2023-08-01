@@ -17,7 +17,7 @@ In a nutshell, after installing Evil Portal on your Flipper (can be done easily 
 
 2 Browse to SD Card > apps_data > evil_portal
 
-3 There, you must upload the two files you find for each portal (index.html and ap.config.txt)
+3 There, you must upload the two files you find for each portal (index.html and ap.config.txt). YOU ONLY UPLOAD THE FILES FROM THE ONE PORTAL YOU WANT TO USE AT THAT POINT IN TIME! Unfortunately, you have to do this everytime you want to switch the portal you use.
 
 4 Now, you can Start Portal in the Evil Portal app using a WiFi dev board (official or not, doesn't matter)
 
