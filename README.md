@@ -6,8 +6,8 @@ It now consists of a few well-known **internet providers** "Hotspots" to emulate
 I will be working on more and am open for suggestions!
 
 ## **!! THERE ARE TWO VERSIONS FOR EACH PORTAL !!**
-- One has a fake "Forgot credentials" button that will invite people to go to their provider's app if they forgot their creds.
-- The other doesn't have this option.
+- One has a fake "Forgot credentials" button that will invite people to go to their provider's app if they forgot their creds. Makes it seem a bit more legit.
+- The other doesn't have this option, simply
 
 ## How to Use
 If you do not know how to use this great app which is **Evil Portal**, watch Talking Sasquach's tutorial [here](https://youtu.be/zfd7wADSkD4).  
@@ -20,7 +20,7 @@ In a nutshell, after installing Evil Portal on your Flipper (can be done easily 
 5. The portal you will see by connecting to your access point will be the one for the provider you uploaded the files from!
 
 ### Customization
-- If you want to change the Access Point's name, you can do it simply by editing the `ap.config.txt` file.
-- You can also tweak the indexes a bit if you know some HTML (there is some JS on the "ForgotCredentials" files).
+- If you want to change the Access Point's name, you can do it simply by editing the `ap.config.txt` file. The text in there will be the AP name.
+- You can also tweak the indexes a bit if you know some HTML. There is some Javascript on the "ForgotCredentials" files but nothing even a noob can't handle.
 
 **Happy flippin'**
