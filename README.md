@@ -14,9 +14,13 @@ If you do not know how to use this great app which is Evil Portal, watch Talking
 In a nutshell, after installing Evil Portal on your Flipper (can be done easily through flipc.org):
 
 1 Open QFlipper
+
 2 Browse to SD Card > apps_data > evil_portal
+
 3 There, you must upload the two files you find for each portal (index.html and ap.config.txt)
+
 4 Now, you can Start Portal in the Evil Portal app using a WiFi dev board (official or not, doesn't matter)
+
 5 The portal you will see by connecting to yor access point will be the one for the provider you uploaded the files from!
 
 If you want to change the Access Point's name, you can do it simply by editing the ap.config.txt file
