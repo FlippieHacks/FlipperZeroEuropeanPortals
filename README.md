@@ -5,7 +5,7 @@ It now consists of 2 well known internet providers "Hotspots" to emulate. (well 
 
 I will be working on more and am open for suggestions!
 
-!!THERE ARE TWO VERSIONS TO EACH PORTAL!!
+!! THERE ARE TWO VERSIONS FOR EACH PORTAL !!
 
 One has a fake "Forgot credentials" button that will invite people to go to their provider's app if they forgot their creds.
 The other doesn't have this option.
