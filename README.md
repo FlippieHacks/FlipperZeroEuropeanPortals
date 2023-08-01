@@ -1,7 +1,7 @@
 # FlipperZeroEuropeanPortals
 A repository of portals I made for the Evil Portal app on the Flipper Zero. For educational purposes only!
 
-It now consists of 2 well known internet providers "Hotspots" to emulate. (well at least they are well known where I live)
+It now consists of a few well known internet providers "Hotspots" to emulate. (well at least they are well known where I live)
 
 I will be working on more and am open for suggestions!
 
