@@ -36,3 +36,4 @@ Some of the portals:
 ![Orange WiFi](https://zupimages.net/up/23/31/9jfm.png)
 ![Thalys Portal](https://zupimages.net/up/23/31/9mvw.png)
 ![McDonald's Portal](https://zupimages.net/up/23/31/ccjy.png)
+![Proximus WiFi](https://zupimages.net/up/23/31/w718.png)
