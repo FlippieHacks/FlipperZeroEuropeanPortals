@@ -10,7 +10,7 @@ I will be working on more and am open for suggestions!
 - One has a fake "Forgot credentials" button that will invite people to go to their provider's app if they forgot their creds. Makes it seem a bit more legit.
 - The other doesn't have this option, simply
 - 
-![Ibis Hotels WiFi](https://exemple.com/monimage.png](https://zupimages.net/viewer.php?id=23/31/mu13.png)
+![Ibis Hotels WiFi](https://zupimages.net/up/23/31/mu13.png)
 
 
 ## How to Use
