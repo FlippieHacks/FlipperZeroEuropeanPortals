@@ -46,5 +46,6 @@ Some of the portals:
 ![Best Western Hotels WiFi](https://zupimages.net/up/23/31/x35v.png)
 ![Tesco WiFi](https://zupimages.net/up/23/31/8rde.png)
 ![Thalys Portal](https://zupimages.net/up/23/31/9mvw.png)
+![Pizza Hut WiFi](https://zupimages.net/up/23/31/umd0.png)
 ![BT Portal](https://zupimages.net/up/23/31/fitm.png)
 ![Proximus WiFi](https://zupimages.net/up/23/31/w718.png)
