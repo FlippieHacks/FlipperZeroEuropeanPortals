@@ -9,7 +9,7 @@ I will be working on more and am open for suggestions!
 ## **!! THERE ARE TWO VERSIONS FOR EACH PORTAL !!**
 - One has a fake "Forgot credentials" button that will invite people to go to their provider's app if they forgot their creds. Makes it seem a bit more legit.
 - The other doesn't have this option, simply
-- 
+  
 ![Ibis Hotels WiFi](https://zupimages.net/up/23/31/mu13.png)
 
 
@@ -28,3 +28,6 @@ In a nutshell, after installing Evil Portal on your Flipper (can be done easily 
 - You can also tweak the indexes a bit if you know some HTML. There is some Javascript on the "ForgotCredentials" files but nothing even a noob can't handle.
 
 **Happy flippin'**
+
+![Ibis Hotels WiFi](https://zupimages.net/up/23/31/cgp5.png)
+![Ibis Hotels WiFi](https://zupimages.net/up/23/31/9jfm.png)
