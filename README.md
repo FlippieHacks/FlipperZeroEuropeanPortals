@@ -22,7 +22,7 @@ I will be working on more and am *open for suggestions!* -> r/u/FlippieHacks
 
 ## How to Use
 If you do not know how to use this great app which is **Evil Portal**, watch Talking Sasquach's tutorial [here](https://youtu.be/zfd7wADSkD4).  
-In a nutshell, after installing Evil Portal on your Flipper (can be done easily through [flipc](https://flipc.org)):
+In a nutshell, after installing Evil Portal on your Flipper (can be done easily through [flipc](https://flipc.org) or even on the official App Store):
 
 1. **Open QFlipper**
 2. **Browse to SD Card > apps_data > evil_portal**
