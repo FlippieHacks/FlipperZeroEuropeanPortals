@@ -39,6 +39,7 @@ In a nutshell, after installing Evil Portal on your Flipper (can be done easily 
 Some of the portals:
 
 ![Ryanair Portal](https://zupimages.net/up/23/31/2vxa.png)
+![British Airways WiFi](https://zupimages.net/up/23/31/8jkp.png)
 ![Vodafone WiFi](https://zupimages.net/up/23/31/cgp5.png)
 ![Orange WiFi](https://zupimages.net/up/23/31/9jfm.png)
 ![Tesco WiFi](https://zupimages.net/up/23/31/8rde.png)
