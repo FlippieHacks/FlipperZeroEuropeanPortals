@@ -3,7 +3,7 @@ A repository of portals I made for the **Evil Portal** app on the **Flipper Zero
 
 It now consists of a few well-known **internet providers** "Hotspots" to emulate. (well at least they are well known where I live) as well as other **big companies or hotels known to offer free hotspots**.
 
-I will be working on more and am open for suggestions!
+I will be working on more and am open for suggestions! -> r/u/FlippieHacks
 
 
 ## **!! THERE ARE TWO VERSIONS FOR EACH PORTAL !!**
