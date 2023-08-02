@@ -30,5 +30,5 @@ In a nutshell, after installing Evil Portal on your Flipper (can be done easily 
 **Happy flippin'**
 
 ![Ryanair Portal](https://zupimages.net/up/23/31/2vxa.png)
-![Ibis Hotels WiFi](https://zupimages.net/up/23/31/cgp5.png)
-![Ibis Hotels WiFi](https://zupimages.net/up/23/31/9jfm.png)
+![Vodafone WiFi](https://zupimages.net/up/23/31/cgp5.png)
+![Orange WiFi](https://zupimages.net/up/23/31/9jfm.png)
