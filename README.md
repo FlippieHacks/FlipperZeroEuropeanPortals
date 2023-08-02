@@ -1,9 +1,13 @@
 # FlipperZeroEuropeanPortals
 A repository of portals I made for the **Evil Portal** app on the **Flipper Zero**. _For educational purposes only!_
 
-It now consists of a few well-known **internet providers** "Hotspots" to emulate. (well at least they are well known where I live) as well as other **big companies or hotels known to offer free hotspots**.
+It consists of: 
+A few well-known **internet providers'** "Hotspots" to emulate. 
+**McDonald's** because they are everywhere
+Some **transportation companies**
+Other **big companies or hotels known to offer free hotspots**
 
-I will be working on more and am open for suggestions! -> r/u/FlippieHacks
+I will be working on more and am *open for suggestions!* -> r/u/FlippieHacks
 
 
 ## **!! THERE ARE TWO VERSIONS FOR EACH PORTAL !!**
