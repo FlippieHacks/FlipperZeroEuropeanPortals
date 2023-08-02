@@ -41,6 +41,7 @@ Some of the portals:
 ![Ryanair Portal](https://zupimages.net/up/23/31/2vxa.png)
 ![Vodafone WiFi](https://zupimages.net/up/23/31/cgp5.png)
 ![Orange WiFi](https://zupimages.net/up/23/31/9jfm.png)
+![Tesco WiFi](https://zupimages.net/up/23/31/8rde.png)
 ![Thalys Portal](https://zupimages.net/up/23/31/9mvw.png)
 ![McDonald's Portal](https://zupimages.net/up/23/31/ccjy.png)
 ![BT Portal](https://zupimages.net/up/23/31/fitm.png)
