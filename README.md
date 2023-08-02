@@ -2,13 +2,13 @@
 A repository of portals I made for the **Evil Portal** app on the **Flipper Zero**. _For educational purposes only!_
 
 It consists of: 
-A few well-known **internet providers'** "Hotspots" to emulate. 
+- A few well-known **internet providers'** "Hotspots" to emulate. 
 
-**McDonald's** because they are everywhere
+- **McDonald's** because they are everywhere
 
-Some **transportation companies**
+- Some **transportation companies**
 
-Other **big companies or hotels known to offer free hotspots**
+- Other **big companies or hotels known to offer free hotspots**
 
 I will be working on more and am *open for suggestions!* -> r/u/FlippieHacks
 
