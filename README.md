@@ -35,3 +35,4 @@ Some of the portals:
 ![Vodafone WiFi](https://zupimages.net/up/23/31/cgp5.png)
 ![Orange WiFi](https://zupimages.net/up/23/31/9jfm.png)
 ![Thalys Portal](https://zupimages.net/up/23/31/9mvw.png)
+![McDonald's Portal](https://zupimages.net/up/23/31/ccjy.png)
