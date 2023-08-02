@@ -7,7 +7,7 @@ I will be working on more and am open for suggestions!
 
 
 ## **!! THERE ARE TWO VERSIONS FOR EACH PORTAL !!**
-- One has a **fake** *Forgot credentials*" button that will invite people to go to their provider's app if they forgot their creds. Makes it seem a bit more legit.
+- One has a **fake** "*Forgot credentials*" button that will invite people to go to their provider's app if they forgot their creds. Makes it seem a bit more legit.
 - The other doesn't have this option, simply
   
 ![Ibis Hotels WiFi](https://zupimages.net/up/23/31/mu13.png)
