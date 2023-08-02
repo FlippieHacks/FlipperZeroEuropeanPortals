@@ -26,7 +26,7 @@ In a nutshell, after installing Evil Portal on your Flipper (can be done easily 
 
 1. **Open QFlipper**
 2. **Browse to SD Card > apps_data > evil_portal**
-3. **Upload the two files you find for each portal** (index.html and ap.config.txt). _YOU ONLY UPLOAD THE FILES FROM THE ONE PORTAL YOU WANT TO USE AT THAT POINT IN TIME!_ Unfortunately, you have to do this every time you want to switch the portal you use.
+3. **Upload the ap.config.txt and index.html file from the portal you want to use** _YOU ONLY UPLOAD THE FILES FROM THE ONE PORTAL YOU WANT TO USE AT THAT POINT IN TIME!_ Unfortunately, you have to do this every time you want to switch the portal you use.
 4. **Start Portal in the Evil Portal app** using a WiFi dev board (official or not, doesn't matter)
 5. The portal you will see by connecting to your access point will be the one for the provider you uploaded the files from!
 
