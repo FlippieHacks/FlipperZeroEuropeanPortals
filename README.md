@@ -45,6 +45,7 @@ Some of the portals:
 ![Orange WiFi](https://zupimages.net/up/23/31/9jfm.png)
 ![Best Western Hotels WiFi](https://zupimages.net/up/23/31/x35v.png)
 ![Tesco WiFi](https://zupimages.net/up/23/31/8rde.png)
+![Starbucks WiFi](https://zupimages.net/up/23/31/lpld.png)
 ![Thalys Portal](https://zupimages.net/up/23/31/9mvw.png)
 ![Pizza Hut WiFi](https://zupimages.net/up/23/31/umd0.png)
 ![Lufthansa WiFi](https://zupimages.net/up/23/31/swhn.png)
