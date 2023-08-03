@@ -54,3 +54,4 @@ Some of the portals:
 ![BT Portal](https://zupimages.net/up/23/31/fitm.png)
 ![Proximus WiFi](https://zupimages.net/up/23/31/w718.png)
 ![Telefónica Hotspot](https://zupimages.net/up/23/31/glcp.png)
+![Deutsche Telekom Hotspot](https://zupimages.net/up/23/31/bqj9.png)
