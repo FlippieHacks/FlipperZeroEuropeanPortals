@@ -6,9 +6,9 @@ A repository of portals I made for the **Evil Portal** app on the **Flipper Zero
 It consists of: 
 - A few well-known **internet providers'** "Hotspots" to emulate. 
 
-- **McDonald's** because they are everywhere
+- **McDonald's** because they are everywhere, but also other fastfoods and coffeeshops
 
-- Some **transportation companies**
+- Some **transportation companies** as well as **airlines**
 
 - Other **big companies or hotels known to offer free hotspots**
 
@@ -20,6 +20,8 @@ I will be working on more and am *open for suggestions!* -> r/u/FlippieHacks
 - The other doesn't have this option, simply
   
 ![Ibis Hotels WiFi](https://zupimages.net/up/23/31/mu13.png)
+
+## **!! Some country-specific portals also exist in their countries' language !!**
 
 
 ## How to Use
