@@ -47,5 +47,6 @@ Some of the portals:
 ![Tesco WiFi](https://zupimages.net/up/23/31/8rde.png)
 ![Thalys Portal](https://zupimages.net/up/23/31/9mvw.png)
 ![Pizza Hut WiFi](https://zupimages.net/up/23/31/umd0.png)
+![Lufthansa WiFi](https://zupimages.net/up/23/31/swhn.png)
 ![BT Portal](https://zupimages.net/up/23/31/fitm.png)
 ![Proximus WiFi](https://zupimages.net/up/23/31/w718.png)
