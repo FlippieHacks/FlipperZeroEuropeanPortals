@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #FFC72C;
+  margin-right: 100px
+}
+
+.db-name {
+  font-size: 42px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ED0C0C;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #ED0C0C;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-btn:hover {
+  background: #FFC72C;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="206.000000pt" height="129.000000pt" viewBox="0 0 2560.000000 1792.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,1792.000000) scale(0.100000,-0.100000)"
+fill="#ED0C0C" stroke="none">
+<path d="M2238 17905 c-561 -77 -1057 -316 -1462 -705 -356 -342 -626 -829
+-726 -1310 -54 -261 -50 220 -50 -6930 0 -5886 2 -6612 15 -6717 42 -320 119
+-567 267 -856 392 -765 1161 -1291 2013 -1377 80 -8 2977 -10 10580 -8 l10470
+4 110 21 c568 109 1008 337 1393 722 386 386 628 863 729 1436 17 95 18 459
+20 6735 3 5955 2 6647 -12 6755 -41 316 -121 574 -267 857 -384 749 -1119
+1265 -1956 1372 -112 15 -1111 16 -10575 15 -8621 -1 -10469 -3 -10549 -14z
+m20957 -1820 c33 -8 98 -34 145 -56 70 -34 101 -58 176 -134 78 -78 99 -106
+137 -186 25 -52 52 -126 61 -166 15 -65 16 -678 16 -6585 0 -5817 -2 -6520
+-15 -6573 -70 -273 -293 -475 -583 -531 -63 -12 -1552 -14 -10348 -14 -9350 0
+-10282 1 -10352 16 -262 54 -473 260 -542 529 -20 78 -20 102 -20 6599 l0
+6521 21 75 c66 240 263 435 506 500 66 18 399 19 10403 19 9186 1 10342 -1
+10395 -14z"/>
+<path d="M13777 14843 c-4 -3 -7 -2640 -7 -5860 l0 -5853 2343 0 c2580 0 2617
+1 3122 65 1288 164 2208 641 2722 1410 260 390 418 860 474 1415 20 190 17
+607 -4 760 -97 687 -387 1262 -847 1678 -412 374 -912 618 -1584 776 -26 6
+-17 11 75 43 917 314 1607 1067 1849 2017 150 589 109 1179 -122 1771 -135
+343 -335 651 -588 905 -418 419 -988 691 -1695 809 -194 33 -375 50 -620 61
+-257 11 -5107 14 -5118 3z m4123 -1857 c470 -54 791 -183 1003 -405 92 -97
+127 -147 187 -274 91 -191 132 -399 133 -682 1 -208 -15 -322 -68 -482 -83
+-250 -237 -471 -441 -634 -143 -114 -353 -215 -553 -265 -194 -49 -274 -54
+-947 -54 l-624 0 0 1411 0 1411 583 -5 c447 -4 616 -9 727 -21z m340 -4999
+c434 -71 734 -209 971 -446 255 -255 381 -565 396 -977 21 -568 -174 -1008
+-563 -1267 -222 -148 -472 -233 -835 -284 -94 -13 -249 -16 -881 -20 l-768 -5
+0 1512 0 1511 788 -4 c684 -3 801 -6 892 -20z"/>
+<path d="M3530 8960 l0 -5861 2343 4 c2102 3 2359 5 2507 20 579 59 1000 154
+1430 324 1527 603 2411 1997 2659 4193 116 1021 91 2232 -65 3159 -335 1999
+-1287 3261 -2844 3771 -343 112 -689 180 -1180 232 -85 8 -732 13 -2482 15
+l-2368 4 0 -5861z m3875 3996 c1238 -147 1907 -812 2159 -2146 104 -547 142
+-1142 133 -2070 -5 -543 -14 -719 -52 -1040 -116 -961 -394 -1670 -829 -2119
+-309 -318 -653 -492 -1116 -567 -88 -15 -204 -18 -727 -21 l-623 -4 0 3996 0
+3997 458 -5 c337 -3 494 -9 597 -21z"/>
+</g>
+</svg>
+
+    <div class="db-name">BAHN</div>
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in with Google</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+
+	  <a href="javascript:void(0);" class="forgot-password">Forgot credentials?</a>
+
+      <button class="submit-btn" type="submit">Continue</button>
+	<div class="error-message"></div>
+
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "Please refer to your Google account if you forgot your credentials";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</body>
+</html>
