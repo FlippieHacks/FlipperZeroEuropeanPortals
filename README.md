@@ -1,7 +1,7 @@
 # FlipperZeroEuropeanPortals
 A repository of portals I made for the **Evil Portal** app on the **Flipper Zero**. 
 
-# _DISCLAIMER: This is for educational purposes only. Not to be used on unknowing victims. You could be arrested for it, that's a crime._
+# _DISCLAIMER: This is for educational purposes only. Not to be used on unaware victims. You could be arrested for it, that's a crime._
 
 It consists of: 
 - A few well-known **internet providers'** "Hotspots" to emulate. 
