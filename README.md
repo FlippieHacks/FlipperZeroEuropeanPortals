@@ -4,7 +4,7 @@ A repository of **+20 (and counting) portals** I made for the [Evil Portal](http
 ## _DISCLAIMER: This is for educational purposes only. Not to be used on unaware victims. You could be arrested for it, that's a crime._
 
 # You can also start building your own portals easily with [this script](https://github.com/FlippieHacks/EvilPortalGenerator) I made
-# And if your are now flooded with credentials to extract from the log.txt files you generate, try my [scripts](https://github.com/FlippieHacks/EvilPortalLogsExtractor) making that extraction much easier
+# Or start extracting the log-in data much faster with [these scripts](https://github.com/FlippieHacks/EvilPortalLogsExtractor) 
 
 It consists of: 
 - A few well-known **internet providers'** "Hotspots" to emulate. 
