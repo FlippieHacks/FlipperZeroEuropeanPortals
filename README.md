@@ -18,8 +18,8 @@ It consists of:
 I will be working on more and am *open for suggestions!* -> r/u/FlippieHacks
 
 # UPDATE 12-08-2023:
-Added [WiFi Routers folder](https://github.com/FlippieHacks/FlipperZeroEuropeanPortals/tree/main/WiFi%20Routers)
-Added +15 more portals (mostly airlines, hotels and railway companies across Europe)
+- Added [WiFi Routers folder](https://github.com/FlippieHacks/FlipperZeroEuropeanPortals/tree/main/WiFi%20Routers)
+- Added +15 more portals (mostly airlines, hotels and railway companies across Europe)
 
 ## **!! THERE ARE TWO VERSIONS FOR EACH PORTAL !!**
 - One has a **fake** "*Forgot credentials*" button that will invite people to go to their provider's app if they forgot their creds. Makes it seem a bit more legit and shows off the capabilities of such portals.
