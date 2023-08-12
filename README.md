@@ -1,5 +1,5 @@
 # FlipperZeroEuropeanPortals
-A repository of **+35 (and counting) portals** I made for the [Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal) app on the **Flipper Zero**. 
+A repository of **+40 (and counting) portals** I made for the [Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal) app on the **Flipper Zero**. 
 
 ## _DISCLAIMER: This is for educational purposes only. Not to be used on unaware victims. You could be arrested for it, that's a crime._
 
@@ -17,6 +17,9 @@ It consists of:
 
 I will be working on more and am *open for suggestions!* -> r/u/FlippieHacks
 
+# UPDATE 12-08-2023:
+Added [WiFi Routers folder](https://github.com/FlippieHacks/FlipperZeroEuropeanPortals/tree/main/WiFi%20Routers)
+Added +15 more portals (mostly airlines, hotels and railway companies across Europe)
 
 ## **!! THERE ARE TWO VERSIONS FOR EACH PORTAL !!**
 - One has a **fake** "*Forgot credentials*" button that will invite people to go to their provider's app if they forgot their creds. Makes it seem a bit more legit and shows off the capabilities of such portals.
