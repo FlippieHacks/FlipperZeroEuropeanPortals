@@ -1,5 +1,5 @@
 # FlipperZeroEuropeanPortals
-A repository of **+30 (and counting) portals** I made for the [Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal) app on the **Flipper Zero**. 
+A repository of **+35 (and counting) portals** I made for the [Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal) app on the **Flipper Zero**. 
 
 ## _DISCLAIMER: This is for educational purposes only. Not to be used on unaware victims. You could be arrested for it, that's a crime._
 
