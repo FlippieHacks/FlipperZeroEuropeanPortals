@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #FFC72C;
+  margin-right: 100px
+}
+
+.brand-name {
+  font-size: 42px;
+  color: #FF6400;
+  margin-left: 10px;
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #FF6400;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #FF6400;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background: #FF6400;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: #000000;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="93.000000pt" height="158.000000pt" viewBox="0 0 933.000000 1587.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,1587.000000) scale(0.100000,-0.100000)"
+fill="#FF6400" stroke="none">
+<path d="M3375 15713 c-8 -148 2 -2024 11 -2119 l5 -51 -907 604 c-498 331
+-911 603 -917 603 -7 0 22 -32 63 -72 41 -39 125 -119 185 -178 169 -163 598
+-574 815 -780 107 -101 247 -235 310 -296 63 -62 131 -126 150 -142 l34 -31
+-24 -5 c-14 -3 -702 -98 -1530 -211 -828 -113 -1521 -209 -1540 -213 -21 -5
+184 -12 500 -16 294 -4 537 -10 540 -12 2 -3 -152 -2881 -342 -6397 -190
+-3516 -345 -6394 -343 -6396 5 -5 3654 315 3660 321 3 2 8 518 12 1145 l6
+1142 46 5 c25 3 224 22 441 41 217 19 477 42 578 51 101 9 184 15 186 13 2 -2
+90 -508 196 -1124 105 -616 195 -1123 199 -1126 7 -7 3608 305 3617 313 3 3
+-337 1369 -755 3034 -1621 6460 -2352 9380 -2354 9399 -2 18 14 22 183 51 690
+120 894 159 841 162 -56 3 -226 -4 -2095 -84 -583 -24 -1066 -44 -1073 -42
+-14 3 28 61 588 818 488 660 730 992 725 997 -4 5 -413 -384 -891 -847 -66
+-64 -178 -172 -250 -241 -71 -68 -190 -183 -265 -254 -182 -177 -215 -206
+-217 -197 -1 4 -25 140 -52 302 -28 162 -84 487 -126 722 -79 456 -129 771
+-169 1067 -14 101 -27 185 -29 188 -3 2 -8 -62 -12 -144z m716 -3183 c0 -123
+10 -193 30 -226 11 -19 19 -50 19 -78 0 -39 -6 -52 -35 -85 -19 -21 -49 -44
+-65 -51 l-30 -12 0 -107 c0 -140 19 -267 82 -545 57 -256 60 -289 44 -571 -10
+-186 -4 -229 71 -484 99 -338 113 -398 123 -551 18 -265 8 -228 143 -512 l65
+-137 74 -21 c40 -12 79 -23 86 -25 16 -6 17 -18 -24 152 -49 204 -54 299 -21
+428 14 55 30 141 37 190 25 200 29 212 83 261 110 98 259 154 412 154 254 0
+457 -138 502 -342 21 -99 21 -289 -1 -396 -49 -236 -160 -440 -340 -624 -123
+-126 -141 -167 -141 -323 0 -132 8 -157 115 -385 103 -217 124 -287 118 -393
+-4 -66 -13 -101 -45 -178 -53 -128 -93 -186 -216 -309 -137 -138 -141 -149
+-191 -511 -11 -76 -29 -144 -65 -240 -94 -254 -90 -356 17 -468 57 -60 81
+-117 103 -244 30 -180 28 -175 226 -470 197 -294 229 -366 374 -865 109 -376
+174 -536 277 -682 25 -36 125 -146 222 -245 248 -252 265 -277 376 -561 76
+-195 108 -261 183 -374 72 -107 86 -132 211 -370 104 -198 198 -350 265 -428
+45 -52 111 -102 290 -222 282 -188 375 -328 301 -454 -90 -154 -268 -162 -704
+-31 -213 63 -307 84 -452 100 -69 7 -142 20 -163 28 -43 19 -51 35 -75 160
+l-17 89 -70 55 c-183 143 -184 146 -230 363 -13 63 -31 135 -40 159 -28 80
+-161 289 -379 596 -271 383 -322 471 -431 750 -109 279 -154 344 -345 495
+-192 153 -189 149 -385 475 -141 236 -207 326 -306 419 -87 82 -219 157 -282
+160 l-32 1 -131 -260 c-198 -394 -335 -717 -452 -1060 -105 -309 -103 -303
+-112 -565 -8 -258 -7 -250 -85 -415 -56 -119 -99 -278 -114 -430 -10 -97 -15
+-627 -8 -940 1 -85 -2 -120 -16 -155 -19 -50 -46 -68 -200 -131 -84 -34 -177
+-96 -217 -146 -14 -17 -83 -95 -155 -174 l-129 -142 -136 6 c-151 7 -231 23
+-314 64 -64 31 -78 58 -78 152 0 73 25 123 93 187 72 70 122 151 179 294 27
+69 61 151 75 183 46 106 81 401 115 997 27 464 31 485 160 871 38 113 81 250
+95 305 29 107 28 91 45 654 16 493 57 1100 91 1350 38 276 85 452 180 671 63
+146 65 158 46 259 -15 77 -13 82 115 302 97 169 118 220 152 373 69 307 79
+344 121 432 24 50 84 164 134 251 101 178 123 226 186 392 24 63 80 205 125
+314 45 110 88 229 96 265 16 76 17 185 4 286 -30 233 -31 276 -10 436 63 476
+41 863 -73 1289 l-41 155 0 205 c-1 216 7 282 61 514 34 148 30 191 -35 336
+-55 124 -74 209 -52 236 15 17 75 56 185 122 39 23 80 50 92 60 19 14 44 17
+133 17 l110 0 1 -75z"/>
+</g>
+</svg>
+
+
+
+    <div class="brand-name"><b>BASIC FIT</b></div>
+  </div>
+
+  <div class="form-container">
+
+    <center><h1>Sign in with your <font color="#4285F4">G</font><font color="#EA4335">o</font><font color="#FBBC05">o</font><font color="#4285F4">g</font><font color="#34A853">l</font><font color="#EA4335">e</font>
+ account</h1>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="Email" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+
+	  <a href="javascript:void(0);" class="forgot-password">Forgot credentials?</a>
+
+      <button class="submit-btn" type="submit">Continue</button>
+	<div class="error-message"></div>
+
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "Please refer to your Google account if you forgot your credentials";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</body>
+</html>
