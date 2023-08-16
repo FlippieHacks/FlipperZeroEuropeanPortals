@@ -1,25 +1,20 @@
 # FlipperZeroEuropeanPortals
-A repository of **+40 (and counting) portals** I made for the [Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal) app on the **Flipper Zero**. 
+A repository of **+55 (and counting) portals** I made for the [Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal) app on the **Flipper Zero**. 
 
 ## _DISCLAIMER: This is for educational purposes only. Not to be used on unaware victims. You could be arrested for it, that's a crime._
 
 # You can start building your own portals easily with [this script](https://github.com/FlippieHacks/EvilPortalGenerator) I made
 # Extract the log-in data much faster with [these scripts](https://github.com/FlippieHacks/EvilPortalLogsExtractor) 
 
-It consists of: 
-- A few well-known **internet providers'** "Hotspots" to emulate. 
-
-- **McDonald's** because they are everywhere, but also other fastfoods and coffeeshops
-
-- Some **transportation companies** as well as **airlines**
-
-- Other **big companies or hotels known to offer free hotspots**
-
-I will be working on more and am *open for suggestions!* -> r/u/FlippieHacks
 
 # UPDATE 12-08-2023:
 - Added [WiFi Routers folder](https://github.com/FlippieHacks/FlipperZeroEuropeanPortals/tree/main/WiFi%20Routers)
 - Added +15 more portals (mostly airlines, hotels and railway companies across Europe)
+# UPDATE 16-08-2023:
+- Added [Brands folder](https://github.com/FlippieHacks/FlipperZeroEuropeanPortals/tree/main/Brands)
+- Added [Gyms folder](https://github.com/FlippieHacks/FlipperZeroEuropeanPortals/tree/main/Gyms)
+- Added [Theme parks folder](https://github.com/FlippieHacks/FlipperZeroEuropeanPortals/tree/main/Theme%20Parks)
+# I will be working on more and am *open for suggestions!* -> r/u/FlippieHacks
 
 ## **!! THERE ARE TWO VERSIONS FOR EACH PORTAL !!**
 - One has a **fake** "*Forgot credentials*" button that will invite people to go to their provider's app if they forgot their creds. Makes it seem a bit more legit and shows off the capabilities of such portals.
