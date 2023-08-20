@@ -47,7 +47,7 @@ Welcome to a vast collection of **over 60 portals** tailored for the [Evil Porta
 
 ## Getting Started:
 
-Not familiar with the **Evil Portal**? Watch Talking Sasquach's comprehensive [tutorial](https://youtu.be/zfd7wADSkD4).
+Not familiar with **Evil Portal**? Watch Talking Sasquach's comprehensive [tutorial](https://youtu.be/zfd7wADSkD4).
 
 **Quick Setup Guide**:
 1. Launch **QFlipper**.
@@ -61,7 +61,7 @@ Not familiar with the **Evil Portal**? Watch Talking Sasquach's comprehensive [t
 ### Personalize Your Portals:
 
 - 📛 Rename your Access Point easily by modifying the `ap.config.txt` file.
-- 💻 For those with basic web know-how: tinker with the HTML files for bespoke designs. The "ForgotCredentials" files contain some simple JavaScript for customization.
+- 💻 For those with basic HTML knowledge: tinker with the HTML files if desired. The "ForgotCredentials" files contain some simple JavaScript.
 
 **Happy Flippin**
 
