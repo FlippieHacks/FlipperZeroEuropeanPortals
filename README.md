@@ -53,7 +53,7 @@ Not familiar with **Evil Portal**? Watch Talking Sasquach's comprehensive [tutor
 1. Launch **QFlipper**.
 2. Navigate to SD Card > apps_data > evil_portal.
 3. **Upload** the *ap.config.txt* and *index.html* files from your chosen portal. *(Remember: Only one portal at a time!)*
-4. Initiate the Portal in the Evil Portal app using any WiFi dev board.
+4. Initiate the Portal in the Evil Portal app using any WiFi dev board (with the app installed on it)
 5. Voilà! Your selected portal is live on your access point!
 
 ---
