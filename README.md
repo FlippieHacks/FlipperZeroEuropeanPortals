@@ -1,7 +1,7 @@
 **FlipperZeroEuropeanPortals**: Your Ultimate Portal Repository!
 ---
 
-Welcome to a vast collection of **over 60 portals** tailored for the [Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal) app on the **Flipper Zero** device.
+Welcome to a vast collection of **over 60 portals** tailored for the [Evil Portal](https://github.com/bigbrodude6119/flipper-zero-evil-portal) app on the **Flipper Zero**.
 
 ---
 
