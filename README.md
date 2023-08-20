@@ -39,7 +39,7 @@ Welcome to a vast collection of **over 60 portals** tailored for the [Evil Porta
 
 <div align="center">
 
-![Ibis Hotels WiFi](https://zupimages.net/up/23/31/mu13.png | width=200)
+![Ibis Hotels WiFi](https://zupimages.net/up/23/31/mu13.png)
 
 </div>
 
