@@ -69,9 +69,30 @@ Not familiar with **Evil Portal**? Watch Talking Sasquach's comprehensive [tutor
 
 A Glimpse of the Portals:
 
-<img src="https://zupimages.net/up/23/31/2vxa.png" width="150"> <img src="https://zupimages.net/up/23/31/8jkp.png" width="150">
+| ![Ibis Hotels WiFi](https://zupimages.net/up/23/31/mu13.png) | ![Ryanair Portal](https://zupimages.net/up/23/31/2vxa.png) | ![British Airways WiFi](https://zupimages.net/up/23/31/8jkp.png) |
+|:--:|:--:|:--:|
+| **Ibis Hotels** | **Ryanair** | **British Airways** |
 
-*[...and many more!](https://github.com/FlippieHacks/FlipperZeroEuropeanPortals)*
+| ![Vodafone WiFi](https://zupimages.net/up/23/31/cgp5.png) | ![McDonald's Portal](https://zupimages.net/up/23/31/ccjy.png) | ![Orange WiFi](https://zupimages.net/up/23/31/9jfm.png) |
+|:--:|:--:|:--:|
+| **Vodafone** | **McDonald's** | **Orange** |
+
+| ![Best Western Hotels WiFi](https://zupimages.net/up/23/31/x35v.png) | ![Tesco WiFi](https://zupimages.net/up/23/31/8rde.png) | ![Starbucks WiFi](https://zupimages.net/up/23/31/lpld.png) |
+|:--:|:--:|:--:|
+| **Best Western Hotels** | **Tesco** | **Starbucks** |
+
+| ![Thalys Portal](https://zupimages.net/up/23/31/9mvw.png) | ![Pizza Hut WiFi](https://zupimages.net/up/23/31/umd0.png) | ![Lufthansa WiFi](https://zupimages.net/up/23/31/swhn.png) |
+|:--:|:--:|:--:|
+| **Thalys** | **Pizza Hut** | **Lufthansa** |
+
+| ![BT Portal](https://zupimages.net/up/23/31/fitm.png) | ![Proximus WiFi](https://zupimages.net/up/23/31/w718.png) | ![Telefónica Hotspot](https://zupimages.net/up/23/31/glcp.png) |
+|:--:|:--:|:--:|
+| **BT** | **Proximus** | **Telefónica** |
+
+| ![Deutsche Telekom Hotspot](https://zupimages.net/up/23/31/bqj9.png) | ![SNCF WiFi](https://zupimages.net/up/23/31/wy1r.png) |
+|:--:|:--:|
+| **Deutsche Telekom** | **SNCF** |
+
 
 </div>
 
