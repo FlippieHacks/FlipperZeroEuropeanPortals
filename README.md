@@ -17,6 +17,9 @@ Welcome to a vast collection of **over 60 portals** tailored for the [Evil Porta
 ---
 
 ## Latest Updates:
+- 📅 **27-03-2024**:
+  - 📂 Added Portuguese isp portal for Nos.
+  
 - 📅 **12-08-2023**:
   - 📂 New: [WiFi Routers folder](https://github.com/FlippieHacks/FlipperZeroEuropeanPortals/tree/main/WiFi%20Routers).
   - 📌 Added 15+ portals, highlighting airlines, hotels, and railway services across Europe.
